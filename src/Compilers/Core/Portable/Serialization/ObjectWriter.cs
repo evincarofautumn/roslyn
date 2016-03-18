@@ -253,7 +253,9 @@ namespace Roslyn.Utilities
                         // This is rare, just allocate UTF16 bytes for simplicity.
 
                         byte[] bytes = new byte[(uint)value.Length * sizeof(char)];
-                        fixed (char* valuePtr = value)
+
+                        /* FIXME: Avoid ToCharArray(). */
+                        fixed (char* valuePtr = value.ToCharArray())
                         {
                             Marshal.Copy((IntPtr)valuePtr, bytes, 0, bytes.Length);
                         }
