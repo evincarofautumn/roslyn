@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Roslyn.VisualStudio.Setup</name>
+    </assembly>
+    <members>
+        <member name="T:Roslyn.VisualStudio.Setup.ProvideRoslynBindingRedirectionAttribute">
+            <summary>
+            A <see cref="T:Microsoft.VisualStudio.Shell.RegistrationAttribute"/> that provides binding redirects with all of the Roslyn settings we need.
+            It's just a wrapper for <see cref="T:Microsoft.VisualStudio.Shell.ProvideBindingRedirectionAttribute"/> that sets all the defaults rather than duplicating them.
+            </summary>
+        </member>
+    </members>
+</doc>

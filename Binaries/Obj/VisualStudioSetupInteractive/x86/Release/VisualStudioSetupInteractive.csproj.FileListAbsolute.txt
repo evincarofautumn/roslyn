@@ -1,0 +1,17 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Setup.Interactive.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Setup.Interactive.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Setup.Interactive.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Setup.Interactive.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Setup.Interactive.vsix
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\VisualStudioSetupInteractive.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.VSPackage.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\VisualStudioSetupInteractive.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\Roslyn.VisualStudio.Setup.Interactive.latest.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetupInteractive\x86\Release\extension.vsixmanifest

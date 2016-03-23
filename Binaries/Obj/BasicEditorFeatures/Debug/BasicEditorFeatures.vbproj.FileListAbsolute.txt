@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\BasicEditorFeatures.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\VBEditorResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\BasicEditorFeatures.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicEditorFeatures\Debug\Microsoft.CodeAnalysis.VisualBasic.EditorFeatures.pdb

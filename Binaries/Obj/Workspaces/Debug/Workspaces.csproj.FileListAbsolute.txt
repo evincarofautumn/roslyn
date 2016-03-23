@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Workspaces.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Microsoft.CodeAnalysis.WorkspacesResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Workspaces.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Microsoft.CodeAnalysis.Workspaces.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Workspaces\Debug\Microsoft.CodeAnalysis.Workspaces.pdb

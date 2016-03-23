@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\PerfTests\ResetRoslynOptions.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\EditorServicesTest.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\Roslyn.Services.Editor.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\Roslyn.Services.Editor.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest\Release\Roslyn.Services.Editor.UnitTests.pdb

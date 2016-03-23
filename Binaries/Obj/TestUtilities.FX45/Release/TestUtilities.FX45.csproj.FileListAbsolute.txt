@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Test.Utilities.FX45.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Test.Utilities.FX45.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Test.Utilities.FX45.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\TestUtilities.FX45.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\Roslyn.Test.Utilities.FX45.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\Roslyn.Test.Utilities.FX45.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.FX45\Release\Roslyn.Test.Utilities.FX45.pdb

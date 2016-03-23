@@ -1,0 +1,804 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Microsoft.VisualStudio.LanguageServices.VisualBasic
+</name>
+</assembly>
+<members>
+<member name="T:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.InsertSnippet">
+<summary>
+  Looks up a localized string similar to Insert Snippet.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Intellisense">
+<summary>
+  Looks up a localized string similar to IntelliSense.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.MicrosoftVisualBasic">
+<summary>
+  Looks up a localized string similar to Microsoft Visual Basic.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_AllowMovingDeclaration">
+<summary>
+  Looks up a localized string similar to _Move local declaration to the extracted method if it is not used elsewhere.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_AutomaticInsertionOfInterfaceAndMustOverrideMembers">
+<summary>
+  Looks up a localized string similar to Automatic _insertion of Interface and MustOverride members.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_ClosedFileDiagnostics">
+<summary>
+  Looks up a localized string similar to Enable full solution _analysis.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_DisplayLineSeparators">
+<summary>
+  Looks up a localized string similar to _Show procedure line separators.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_DontPutOutOrRefOnStruct">
+<summary>
+  Looks up a localized string similar to _Don&apos;t put ByRef on custom structure.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EditorHelp">
+<summary>
+  Looks up a localized string similar to Editor Help.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EnableEndConstruct">
+<summary>
+  Looks up a localized string similar to A_utomatic insertion of end constructs.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EnableHighlightKeywords">
+<summary>
+  Looks up a localized string similar to Highlight related _keywords under cursor.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EnableHighlightReferences">
+<summary>
+  Looks up a localized string similar to _Highlight references to symbol under cursor.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EnableLineCommit">
+<summary>
+  Looks up a localized string similar to _Pretty listing (reformatting) of code.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_EnableOutlining">
+<summary>
+  Looks up a localized string similar to _Enter outlining mode when files open.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_ExtractMethod">
+<summary>
+  Looks up a localized string similar to Extract Method.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_GenerateXmlDocCommentsForTripleApostrophes">
+<summary>
+  Looks up a localized string similar to _Generate XML documentation comments for &apos;&apos;&apos;.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_GoToDefinition">
+<summary>
+  Looks up a localized string similar to Go to Definition.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_Highlighting">
+<summary>
+  Looks up a localized string similar to Highlighting.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_NavigateToObjectBrowser">
+<summary>
+  Looks up a localized string similar to _Navigate to Object Browser for symbols defined in metadata.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_OptimizeForSolutionSize">
+<summary>
+  Looks up a localized string similar to Optimize for solution size.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_OptimizeForSolutionSize_Large">
+<summary>
+  Looks up a localized string similar to Large.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_OptimizeForSolutionSize_Regular">
+<summary>
+  Looks up a localized string similar to Regular.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_OptimizeForSolutionSize_Small">
+<summary>
+  Looks up a localized string similar to Small.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_Outlining">
+<summary>
+  Looks up a localized string similar to Outlining.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_Performance">
+<summary>
+  Looks up a localized string similar to Performance.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.Option_RenameTrackingPreview">
+<summary>
+  Looks up a localized string similar to Show preview for _rename tracking.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.PreferIntrinsicPredefinedTypeKeywordInDeclaration">
+<summary>
+  Looks up a localized string similar to Prefer intrinsic predefined type keyword when declaring locals, parameters and members.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.PreferIntrinsicPredefinedTypeKeywordInMemberAccess">
+<summary>
+  Looks up a localized string similar to Prefer intrinsic predefined type keyword in member access expressions.
+</summary>
+</member>
+<member name="P:Microsoft.VisualStudio.LanguageServices.VisualBasic.BasicVSResources.QualifyMemberAccessWithMe">
+<summary>
+  Looks up a localized string similar to Qualify member access with &apos;Me&apos;.
+</summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.CodeModel.VisualBasicCodeModelService.GetMemberNodes(Microsoft.CodeAnalysis.SyntaxNode,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Retrieves the members of a specified <paramref name="container"/> node. The members that are
+ returned can be controlled by passing various parameters.
+ </summary>
+ <param name="container">The <see cref="T:Microsoft.CodeAnalysis.SyntaxNode"/> from which to retrieve members.</param>
+ <param name="includeSelf">If true, the container Is returned as well.</param>
+ <param name="recursive">If true, members are recursed to return descendant members as well
+ as immediate children. For example, a namespace would return the namespaces And types within.
+ However, if <paramref name="recursive"/> Is true, members with the namespaces And types would
+ also be returned.</param>
+ <param name="logicalFields">If true, field declarations are broken into their respective declarators.
+ For example, the field "Dim x, y As Integer" would return two nodes, one for x And one for y in place
+ of the field.</param>
+ <param name="onlySupportedNodes">If true, only members supported by Code Model are returned.</param>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.CodeModel.VisualBasicCodeModelService.CreateInternalCodeElement(Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel,Microsoft.CodeAnalysis.SyntaxNode)">
+ <summary>
+ Do not use this method directly! Instead, go through <see cref="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.GetOrCreateCodeElement``1(Microsoft.CodeAnalysis.SyntaxNode)"/>
+ </summary>
+</member>
+<member name="T:Microsoft.VisualStudio.LanguageServices.VisualBasic.IVbCompilerService">
+ <summary>
+ A dummy interface with the same GUID as the legacy SID_SVisualBasicCompiler. This is needed so the managed
+ package framework can properly expose the service, since we need _some_ type to give for the ProvideService
+ attribute. We need our package to have a different GUID than this service, but they need to be implemented by
+ the same object since some project systems (Venus) assume we are implemented this way.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.Options.AdvancedOptionPageControl.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions">
+ <summary>
+ Converts a legacy VBCompilerOptions into the new Roslyn CompilerOptions and ParseOptions.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions.CompilationOptions">
+ <summary>
+ The resulting CompilationOptions.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions.RuntimeLibraries">
+ <summary>
+ The full paths to any libraries (such as System.dll, or Microsoft.VisualBasic.dll) that
+ should be added.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions.OutputPath">
+ <summary>
+ The full output path.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions.s_conditionalCompilationSymbolsCache">
+ <summary>
+ Maps a string to the parsed conditional compilation symbols.
+ It is expected that most projects in a solution will have similar (if not identical)
+ sets of conditional compilation symbols. From a performance perspective, it makes sense
+ to cache these rather than reparse them every time we create a new <see cref="T:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.ConvertedVisualBasicProjectOptions"/>
+ instance. We also expect the total set of these to be small, which is why we never evict anything from this cache.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbBuildStatusCallback.BuildBegin(System.Boolean@)">
+ <summary>
+ Notification that the build is beginning. If the build needs to be stopped, then the
+ callee should set pfContinue to false.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbBuildStatusCallback.BuildEnd(System.Boolean)">
+ <summary>
+ If a build or clean has completed, fSuccess specifies if it completed successfully.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbBuildStatusCallback.TickEx(System.Boolean@,System.UInt32,System.UInt32)">
+ <summary>
+ Called every once in a while between BuildBegin and BuildEnd.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbBuildStatusCallback.ProjectBound">
+ <summary>
+ Called every time the project reaches bound state.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.CreateProject(System.String,System.Object,Microsoft.VisualStudio.Shell.Interop.IVsHierarchy,Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerHost)">
+ <summary>
+ Create an instance of a VB compiler project. The caller is responsible for ensuring this project is unique.
+ </summary>
+ <param name="wszName">The name of the project.</param>
+ <param name="punkProject">May be NULL, must allow us to navigate to an instance of ILangReferenceManager in the IDE.</param>
+ <param name="pProjHier">The project's IVsHierarchy. May be null.</param>
+ <param name="pVbCompilerHost">The IVbCompilerHost for this project.</param>
+ <returns>A new instance of IVbCompilerProject.</returns>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.Compile(System.IntPtr,System.IntPtr,System.IntPtr)">
+ <summary>
+ Synchronously compile all projects in this compiler. Not to be used from the IDE.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.SetOutputLevel(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.OutputLevel)">
+ <summary>
+ Sets the output level specified at the command line.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.SetDebugSwitches(System.Boolean[])">
+ <summary>
+ Array of DEBUG_SWITCHES. NOTE: These switches are for debugging purposes only and are
+ set process-wide. Any calls to this method after the first one will overwrite the values
+ from the previous calls.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.SetWatsonType(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.WatsonType,System.Int32,System.String)">
+ <summary>
+ Set Watson behavior.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.StopBackgroundCompiler">
+ <summary>
+ Signal the background compiler to stop.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.StartBackgroundCompiler">
+ <summary>
+ Signal the background compiler to start.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompiler.SetLoggingOptions(System.UInt32)">
+ <summary>
+ Set the logging options for the compiler. Should only be called once and from the
+ command line compiler.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerHost.OutputString(System.String)">
+ <summary>
+ Output a string to the standard output (console, file, pane, etc.)
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerHost.GetSdkPath(System.String@)">
+ <summary>
+ Returns the system SDK directory, where mscorlib.dll and Microsoft.VisualBasic.dll is
+ located.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerHost.GetTargetLibraryType">
+ <summary>
+ Get the target library type.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SetCompilerOptions(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions@)">
+ <summary>
+ Set the compiler options. The strings in this structure are only guaranteed to be alive
+ during this function call.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddFile(System.String,System.UInt32,System.Boolean)">
+ <summary>
+ Called each time a file is added to the project (via Add Item or during project open).
+ </summary>
+ <param name="wszFileName">The filename to add.</param>
+ <param name="itemid">The VSITEMID of the item.</param>
+ <param name="fAddDuringOpen">Set if this file is being added during solution
+ open.</param>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveFile(System.String,System.UInt32)">
+ <summary>
+ Called when a file is removed from the project.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RenameFile(System.String,System.String,System.UInt32)">
+ <summary>
+ Called when a file is renamed.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveFileByName(System.String)">
+ <summary>
+ Called when a file is removed from the project, but you don't have an itemid.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddBuffer(System.String,System.Int32,System.String,System.UInt32,System.Boolean,System.Boolean)">
+ <summary>
+ Called by VBA to introduce an in-memory buffer to the compiler project.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SetStreamForPDB(System.Runtime.InteropServices.ComTypes.IStream)">
+ <summary>
+ Called by VBA to give memory-backed IStream to ISymWriter for PDB symbol store MetaEmit
+ will AddRef and hold the pointer until MetaEmit is destroyed.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddProjectReference(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject)">
+ <summary>
+ Add a reference to another project within the current solution.
+ </summary>
+ <param name="pReferencedCompilerProject">The project to reference.</param>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveProjectReference(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject)">
+ <summary>
+ Removes a reference to another project in the current solution.
+ </summary>
+ <param name="pReferencedCompilerProject">The project to no longer be referenced.</param>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddMetaDataReference(System.String,System.Boolean)">
+ <summary>
+ Adds a reference to a MetaData file.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveMetaDataReference(System.String)">
+ <summary>
+ Removes a reference to a Metadata file.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveAllReferences">
+ <summary>
+ Removes all project-to-project and metadata references.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddImport(System.String)">
+ <summary>
+ Add an import.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.DeleteImport(System.String)">
+ <summary>
+ Remove an import.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddResourceReference(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>
+ Add a reference to a resource file
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.DeleteAllResourceReferences">
+ <summary>
+ Removes all resource file references.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.StartBuild(Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,System.Boolean)">
+ <summary>
+ Notification that a "build" is starting. Since the compiler may be running in the
+ background, this might not mean anything more than to disable some UI.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.StopBuild">
+ <summary>
+ This is called if the user wishes to stop a "build". Since the compiler will always be
+ running, its only effect might be to re-enable UI that is disabled during a build.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.Disconnect">
+ <summary>
+ Disconnects from the project and event source, etc.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.GetEntryPointsList(System.Int32,System.String[],System.IntPtr)">
+ <summary>
+ Lists all classes with Sub Main marked as shared (entry points). If called with cItems =
+ 0 and pcActualItems != NULL, GetEntryPointsList returns in pcActualItems the number of
+ items available. When called with cItems != 0, GetEntryPointsList assumes that there is
+ enough space in strList[] for that many items, and fills up the array with those items
+ (up to maximum available). Returns in pcActualItems the actual number of items that
+ could be put in the array (this can be &lt; or &gt; cItems). Assumes that the caller
+ takes care of array allocation and de-allocation. 
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AdviseBuildStatusCallback(Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbBuildStatusCallback)">
+ <summary>
+ Advises the IVsBuildStatusCallback of build events.
+ </summary>
+ <returns>The cookie to be passed to UnadviseBuildStatusCallback.</returns>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.ENCRebuild(System.Object,System.Object@)">
+ <summary>This method call is synchronous.</summary>
+ <returns>
+ S_FALSE: this project doesn't need rebuilding in this program. S_OK: rebuild succeeded
+ must set out_ppUpdate. Any FAILED(hr): build errors.</returns>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.GetPEImage(System.IntPtr@)">
+ <summary>
+ Get the in-memory PE image. Will return NULL if we are not compiling to memory.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.CreateCodeModel(EnvDTE.Project,EnvDTE.ProjectItem,EnvDTE.CodeModel@)">
+ <summary>
+ Creates a CodeModel object.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.CreateFileCodeModel(EnvDTE.Project,EnvDTE.ProjectItem,EnvDTE.FileCodeModel@)">
+ <summary>
+ Creates a FileCodeModel object.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.GetMethodFromLine(System.UInt32,System.Int32,System.String@,System.String@)">
+ <summary>
+ Gets the proc and class for the indicated SourceFile at the indicated line number (used
+ by VSA) BSTR's are (potentially) allocated by the method, and, if so, it is then freed
+ by caller.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.AddApplicationObjectVariable(System.String,System.String)">
+ <summary>
+ Add an "application object" variable to the project. These variables have special
+ binding rules and are only used by VBA. You should do a "StartEdit" and "FinishEdit"
+ around a set of calls to these methods.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RemoveAllApplicationObjectVariables">
+ <summary>
+ Remove all of the above variables.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.DeleteAllImports">
+ <summary>
+ Removes all imports
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SetBackgroundCompilerPriorityNormal">
+ <summary>
+ Returns the background compiler to a normal thread priority.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SetBackgroundCompilerPriorityLow">
+ <summary>
+ Sets the background compiler to a low thread priority. The caller is responsible for
+ calling SetBackgroundCompilerPriorityNormal later.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.RenameProject(System.String)">
+ <summary>
+ Called when the project is renamed. If it fails, it should throw an exception for
+ E_FAIL.
+ </summary>
+ <param name="wszNewProjectName">The new name of the project.</param>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.WaitUntilBound">
+ <summary>
+ Blocks the foreground thread until the background is in bound state for this project.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.GetDefaultReferences(System.Int32,System.String[]@,System.IntPtr)">
+ <summary>
+ Call with a NULL pointer to obtain the number of references, then pass in an array and
+ the size to receive the actual references.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SuspendPostedNotifications">
+ <summary>
+ Disable posting compiler messages to avoid filling up the message queue.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.ResumePostedNotifications">
+ <summary>
+ Enable posting compiler messages.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVbCompilerProject.SetModuleAssemblyName(System.String)">
+ Set the module assembly name option. Not set above since its a VBC only setting.
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.IVBEntryPointProvider.GetFormEntryPointsList(System.Object,System.Int32,System.String[],System.IntPtr)">
+ <summary>
+ Lists all Form classes with an entry point. If called with cItems = 0 and
+  pcActualItems != NULL, GetEntryPointsList returns in pcActualItems the number
+  of items available. When called with cItems != 0, GetEntryPointsList assumes
+  that there is enough space in strList[] for that many items, and fills up the
+  array with those items (up to maximum available).  Returns in pcActualItems 
+  the actual number of items that could be put in the array (this can be greater than or 
+  less than cItems). Assumes that the caller takes care of array allocation and de-allocation.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszExeName">
+ <summary>
+ The name of the output EXE (base filename + ext).
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszXMLDocName">
+ <summary>
+ The name of the XML documentation file (base filename + ext).
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszOutputPath">
+ <summary>
+ The path to build the outputs to. This is the directory to build the set of outputs
+ produced by this project.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszTemporaryPath">
+ <summary>
+ The path to store temporary goo.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.OutputType">
+ <summary>
+ The project output type.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszDefaultNamespace">
+ <summary>
+ The default namespace for types not declared within a Namespace statement.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszStartup">
+ <summary>
+ Start startup module contains the full namespace name of the module we will create the
+ first entry point into. If this is NULL or the empty string, the compiler will find a
+ "Sub Main" in the project and use that.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszCondComp">
+ <summary>
+ The list of project-level conditional compilation symbols.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bRemoveIntChecks">
+ <summary>
+ Don't emit integer overflow checks on integer operations.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bOptionStrictOff">
+ <summary>
+ Is Option Strict on or off by default?
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bOptionExplicitOff">
+ <summary>
+ Is Option Explicit on or off by default?
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bOptionCompareText">
+ <summary>
+ Is Option Compare Text or Binary by default?
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bOptionInferOff">
+ <summary>
+ Is Option Infer On or Off by default?
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bGenerateSymbolInfo">
+ <summary>
+ Generate debuggable code (insert NOPs for easy stepping, etc) and a PDB.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bGeneratePdbOnly">
+ <summary>
+ Don't mess with the code at all, but do generate a PDB. This makes "real" retail
+ debugging possible.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bOptimize">
+ <summary>
+ Optimize the code generated.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszStrongNameKeyFile">
+ <summary>
+ Full path to key pair file used to create strong-named (public) assemblies
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszStrongNameContainer">
+ <summary>
+ Name of the key container to use.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bDelaySign">
+ <summary>
+ Whether the assembly is being delay signed.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszWin32ResFile">
+ <summary>
+ Win32 resource file. Mutually exclusive with wszIconFile.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszIconFile">
+ <summary>
+ Win32 icon file. Mutually exclusive with wszWin32ResFile.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.dwLoadAddress">
+ <summary>
+ Preferred load address.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszDisabledWarnings">
+ <summary>
+ List of Disabled Warnings
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszWarningsAsErrors">
+ <summary>
+ List of Warnings as Errors
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszWarningsNotAsErrors">
+ <summary>
+ List of Warnings Not as Errors
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bEnableIncrementalCompilation">
+ <summary>
+ Obsolete, but apparently was used by the native compiler to determine if it's an
+ App_Code project from Venus. Such a hack should be removed from their project system.
+ See SetCompilerOptionsInternal in CompilerProject.cpp for details.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.dwAlign">
+ <summary>
+ Preferred file alignment.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.dwDefaultCodePage">
+ <summary>
+ Default codepage to use when the compiler loads a file. 0 = none.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszPlatformType">
+ <summary>
+ String indicating the platform type to limit the compiling assembly to.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bNoStandardLibs">
+ <summary>
+ Don't add standard libraries.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszUacManifestFile">
+ <summary>
+ Manifest full file path. If null, no manifest will be used.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.langVersion">
+ <summary>
+ Language version option.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.vbRuntimeKind">
+ <summary>
+ The VB Runtime Kind
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.bHighEntropyVA">
+ <summary>
+ Emit with the HighEntropyVA bit set in PE
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOptions.wszSubsystemVersion">
+ <summary>
+ Subsystem version in PE
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_None">
+ <summary>
+ This indicates that the compiler will not attempt to generate an output assembly. The
+ compiler can be used for UI features (e.g. Intellisense), but not for building an output
+ assembly. The compiler assumes Library output so it will not generate any errors for
+ missing Sub Main.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_ConsoleEXE">
+ <summary>
+ The current default. Produces an application that has a console window. The classes
+ defined inside of the EXE cannot be expose outside the EXE.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_WindowsEXE">
+ <summary>
+ Produces an application that does not have a console window. The classes defined inside
+ of the EXE cannot be exposed outside of the EXE.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_Library">
+ <summary>
+ Produces a DLL that may expose classes outside of itself.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_Module">
+ <summary>
+ Produces a module that must be consumed by another assembly.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_AppContainerEXE">
+ <summary>
+ Produces an app that runs in Appcontainer
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBCompilerOutputTypes.OUTPUT_WinMDObj">
+ <summary>
+ Produces the intermediary file that feeds into WinMDExp to produce a Windows
+ Runtime Metadata assembly
+ </summary>
+</member>
+<member name="T:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBRuntimeKind">
+ <summary>
+ What version of the VB runtime to use.
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBRuntimeKind.DefaultRuntime">
+ <summary>
+ corresponds to /vbruntime+
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBRuntimeKind.NoRuntime">
+ <summary>
+ corresponds to /vbruntime-
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBRuntimeKind.SpecifiedRuntime">
+ <summary>
+ corresponds to /vbruntime:[path]
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.Interop.VBRuntimeKind.EmbeddedRuntime">
+ <summary>
+ corresponds to /vbruntime*
+ </summary>
+</member>
+<member name="F:Microsoft.VisualStudio.LanguageServices.VisualBasic.ProjectSystemShim.VisualBasicProject.s_importsCache">
+ <summary>
+ Maps a string to the related <see cref="T:Microsoft.CodeAnalysis.VisualBasic.GlobalImport"/>. Since many projects in a solution
+ will have similar (if not identical) sets of imports, there are performance benefits to
+ caching these rather than parsing them anew for each project. It is expected that the total
+ number of imports will be rather small, which is why we never evict anything from this cache.
+ </summary>
+</member>
+<member name="M:Microsoft.VisualStudio.LanguageServices.VisualBasic.Venus.ContainedLanguageStaticEventBinding.GetStaticEventBindings(Microsoft.CodeAnalysis.Document,System.String,System.String,System.Threading.CancellationToken)">
+ <summary>
+ Find all the methods that handle events (though "Handles" clauses).
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>

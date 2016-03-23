@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\BoundTreeGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\BoundTreeGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\BoundTreeGenerator.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\CompilersBoundTreeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\CompilersBoundTreeGenerator.csproj.BoundTreeGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\BoundTreeGenerator.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\BoundTreeGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilersBoundTreeGenerator\Debug\BoundTreeGenerator.pdb

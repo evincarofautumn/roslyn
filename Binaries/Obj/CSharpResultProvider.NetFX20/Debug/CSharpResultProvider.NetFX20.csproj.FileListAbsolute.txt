@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\NetFX20\Microsoft.VisualStudio.Debugger.Engine.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\NetFX20\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\NetFX20\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\NetFX20\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.NetFX20\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.NetFX20\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.NetFX20\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.NetFX20\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.pdb

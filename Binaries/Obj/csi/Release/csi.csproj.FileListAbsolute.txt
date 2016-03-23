@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csi.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\csi.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\csi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\csi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\csi\Release\csi.csprojResolveAssemblyReference.cache

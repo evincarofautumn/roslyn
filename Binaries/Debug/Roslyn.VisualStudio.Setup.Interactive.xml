@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Roslyn.VisualStudio.Setup.Interactive</name>
+    </assembly>
+    <members>
+        <member name="T:Roslyn.VisualStudio.Setup.ProvideRoslynBindingRedirectionAttribute">
+            <summary>
+            A <see cref="T:Microsoft.VisualStudio.Shell.RegistrationAttribute"/> that provides binding redirects with all of the Roslyn settings we need.
+            It's just a wrapper for <see cref="T:Microsoft.VisualStudio.Shell.ProvideBindingRedirectionAttribute"/> that sets all the defaults rather than duplicating them.
+            </summary>
+        </member>
+        <member name="T:Roslyn.VisualStudio.Interactive.Setup.VSPackage">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Roslyn.VisualStudio.Interactive.Setup.VSPackage.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Roslyn.VisualStudio.Interactive.Setup.VSPackage.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Roslyn.VisualStudio.Interactive.Setup.VSPackage._1">
+            <summary>
+              Looks up a localized string similar to PQCQCAHHR8E3AZJ8I2EHZCCIRMZQMKZ3P2MTCZJICMI0HADAQZPIEEZPEPRHKMKQADQDJPAJMJK9RQCQADPDH9KTCZR2Q9K1RJPQKIKHE0E1CAA2RRKIK0JKPEJ2H0RH.
+            </summary>
+        </member>
+        <member name="P:Roslyn.VisualStudio.Interactive.Setup.VSPackage._2">
+            <summary>
+              Looks up a localized string similar to MCP9RMJTRPQAKQJ9RKK8RQDAD9RMKCJECQRHPZKIZEPPIRKJQTC0CIQZQKJIKPA9D2R8JQMEPRE1CTRIKDJRMRCCJ0ECDIZAD1ZMRZD9KAAMRDQ9A9EIZJC1IMZ9I0QE.
+            </summary>
+        </member>
+        <member name="P:Roslyn.VisualStudio.Interactive.Setup.VSPackage._3">
+            <summary>
+              Looks up a localized string similar to QPIACEJ0I0I3CDQ8QRJRKKQTCZKMJJJKDPHHP3QIH1RJJMQ3QTRQJED8J8ITHQEJMHK1AMA1R8A0Q0QDA3DAJCJHJ1P2KKP2AMRMPPPRK1C1ZDA1M2DPZZD3RJAZPPJ3.
+            </summary>
+        </member>
+    </members>
+</doc>

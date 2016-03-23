@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\DeployCoreClrTestRuntime_DoNotUse.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\DeployCoreClrTestRuntime_DoNotUse.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\DeployCoreClrTestRuntime_DoNotUse.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CoreClrTest\DeployCoreClrTestRuntime_DoNotUse.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\DeployCoreClrTestRuntime.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\DeployCoreClrTestRuntime.csproj.DeployCoreClrTestRuntime_DoNotUse.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\DeployCoreClrTestRuntime_DoNotUse.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\DeployCoreClrTestRuntime_DoNotUse.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCoreClrTestRuntime\x64\Debug\DeployCoreClrTestRuntime_DoNotUse.pdb

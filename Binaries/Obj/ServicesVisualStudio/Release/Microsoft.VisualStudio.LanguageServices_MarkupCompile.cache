@@ -1,0 +1,20 @@
+﻿Microsoft.VisualStudio.LanguageServices
+42.42.42.42
+
+library
+C#
+.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudio\Release\
+Microsoft.VisualStudio.LanguageServices
+none
+false
+TRACE
+
+4-350581138
+
+4991784874592
+140-1803092677
+Implementation\ChangeSignature\ChangeSignatureDialog.xaml;Implementation\PreviewPane\PreviewPane.xaml;Implementation\ExtractInterface\ExtractInterfaceDialog.xaml;Implementation\GenerateType\GenerateTypeDialog.xaml;
+
+False
+

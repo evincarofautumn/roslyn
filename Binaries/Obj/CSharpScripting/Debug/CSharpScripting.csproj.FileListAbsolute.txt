@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\CSharpScripting.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScriptingResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\CSharpScripting.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpScripting\Debug\Microsoft.CodeAnalysis.CSharp.Scripting.pdb

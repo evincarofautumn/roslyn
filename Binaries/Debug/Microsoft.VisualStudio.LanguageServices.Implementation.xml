@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.LanguageServices.Implementation</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelObject">
+            <summary>
+            This is the root class for all code model objects. It contains methods that
+            are common to everything.
+            </summary>
+            <summary>
+            This is the root class for all code model objects. It contains methods that
+            are common to everything.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.GetMemberNodes(Microsoft.CodeAnalysis.SyntaxNode,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Retrieves the members of a specified <paramref name="container"/> node. The members that are
+            returned can be controlled by passing various parameters.
+            </summary>
+            <param name="container">The <see cref="T:Microsoft.CodeAnalysis.SyntaxNode"/> from which to retrieve members.</param>
+            <param name="includeSelf">If true, the container is returned as well.</param>
+            <param name="recursive">If true, members are recursed to return descendant members as well
+            as immediate children. For example, a namespace would return the namespaces and types within.
+            However, if <paramref name="recursive"/> is true, members with the namespaces and types would
+            also be returned.</param>
+            <param name="logicalFields">If true, field declarations are broken into their respective declarators.
+            For example, the field "int x, y" would return two declarators, one for x and one for y in place
+            of the field.</param>
+            <param name="onlySupportedNodes">If true, only members supported by Code Model are returned.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.CreateInternalCodeElement(Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel,Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Do not use this method directly! Instead, go through <see cref="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.GetOrCreateCodeElement``1(Microsoft.CodeAnalysis.SyntaxNode)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.PositionVariantToAttributeInsertionIndex(System.Object,Microsoft.CodeAnalysis.SyntaxNode,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel)">
+            <summary>
+            The position argument is a VARIANT which may be an EnvDTE.CodeElement, an int or a string
+            representing the name of a member. This function translates the argument and returns the
+            1-based position of the specified attribute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.GetMemberIndexInContainer(Microsoft.CodeAnalysis.SyntaxNode,System.Func{Microsoft.CodeAnalysis.SyntaxNode,System.Boolean})">
+            <summary>
+            Finds the index of the first child within the container for which <paramref name="predicate"/> returns true.
+            Note that the result is a 1-based as that is what code model expects. Returns -1 if no match is found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.PositionVariantToMemberInsertionIndex(System.Object,Microsoft.CodeAnalysis.SyntaxNode,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel)">
+            <summary>
+            The position argument is a VARIANT which may be an EnvDTE.CodeElement, an int or a string
+            representing the name of a member. This function translates the argument and returns the
+            1-based position of the specified member.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.AbstractCodeModelService.AddBlankLineToMethodBody(Microsoft.CodeAnalysis.SyntaxNode,Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Override to determine whether <param name="newNode"/> adds a method body to <param name="node"/>.
+            This is used to determine whether a blank line should be added inside the body when formatting.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelProjectCache">
+            <summary>
+            Cache FileCodeModel instances for a given project (we are using WeakReference for now, 
+            so that we can more or less match the semantics of the former native implementation, which 
+            offered reference equality until all instances were collected by the GC)
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelProjectCache.GetCacheEntry(System.String)">
+            <summary>
+            Look for an existing instance of FileCodeModel in our cache.
+            Return null if there is no active FCM for "fileName".
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState">
+            <summary>
+            Shared state common to all code model objects.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelTaskExtensions.WaitAndGetResult_CodeModel``1(System.Threading.Tasks.Task{``0},System.Threading.CancellationToken)">
+            <summary>
+            Does a <see cref="M:Roslyn.Utilities.TaskExtensions.WaitAndGetResult``1(System.Threading.Tasks.Task{``0},System.Threading.CancellationToken)"/> for CodeModel.
+            </summary>
+            <remarks>
+            This function is the exact same as <see cref="M:Roslyn.Utilities.TaskExtensions.WaitAndGetResult``1(System.Threading.Tasks.Task{``0},System.Threading.CancellationToken)"/>, except it opts out
+            of enforcement that it can be called on non-UI threads. CodeModel, since it must implement a highly blocking API,
+            has no choice but to use WaitAndGetResult in a bunch of places. But that's not a good reason to require the tests
+            to have thread affinity, since the tests have no specific threading requirements. Thus, it's acceptable for CodeModel
+            to call the _CanCallOnBackground variant. We hope to audit _CanCallOnBackground periodically, and so rather than
+            having to understand that each of those uses are CodeModel and thus get a special pass.</remarks>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel">
+            <summary>
+            Implementations of EnvDTE.FileCodeModel for both languages.
+            </summary>
+            <summary>
+            Implementations of EnvDTE.FileCodeModel for both languages.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel._documentId">
+            <summary>
+            Don't use directly. Instead, call <see cref="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.GetDocumentId"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.OnRename(System.String)">
+            <summary>
+            Internally, we store the DocumentId for the document that the FileCodeModel represents. If the underlying file
+            is renamed, the DocumentId will become invalid because the Roslyn VS workspace treats file renames as a remove/add pair.
+            To work around this, the FileCodeModel is notified when a file rename is about to occur. At that point, the
+            <see cref="F:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel._documentId"/> field is null'd out and <see cref="F:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel._incomingFilePath"/> is set to the name of the new file.
+            The next time that a FileCodeModel operation occurs that requires the DocumentId, it will be retrieved from the workspace
+            using the <see cref="F:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel._incomingFilePath"/>.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeElementContainer`1">
+            <summary>
+            Interface implemented by code model objects that have a CodeElements collection.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetOptionNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the Option nodes (i.e. VB Option statements) parented
+            by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetImportNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the import nodes (e.g. using/Import directives) parented
+            by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetAttributeNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the attributes parented or owned by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetAttributeArgumentNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the attribute arguments parented by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetInheritsNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the Inherits nodes (i.e. VB Inherits statements) parented 
+            or owned by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetImplementsNodes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the Implements nodes (i.e. VB Implements statements) parented 
+            or owned by the given node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetMemberNodes(Microsoft.CodeAnalysis.SyntaxNode,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Retrieves the members of a specified <paramref name="container"/> node. The members that are
+            returned can be controlled by passing various parameters.
+            </summary>
+            <param name="container">The <see cref="T:Microsoft.CodeAnalysis.SyntaxNode"/> from which to retrieve members.</param>
+            <param name="includeSelf">If true, the container is returned as well.</param>
+            <param name="recursive">If true, members are recursed to return descendant members as well
+            as immediate children. For example, a namespace would return the namespaces and types within.
+            However, if <paramref name="recursive"/> is true, members with the namespaces and types would
+            also be returned.</param>
+            <param name="logicalFields">If true, field declarations are broken into their respective declarators.
+            For example, the field "int x, y" would return two declarators, one for x and one for y in place
+            of the field.</param>
+            <param name="onlySupportedNodes">If true, only members supported by Code Model are returned.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.CreateInternalCodeElement(Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel,Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Do not use this method directly! Instead, go through <see cref="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.GetOrCreateCodeElement``1(Microsoft.CodeAnalysis.SyntaxNode)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.CreateCodeTypeRef(Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState,Microsoft.CodeAnalysis.ProjectId,System.Object)">
+            <summary>
+            Used by RootCodeModel.CreateCodeTypeRef to create an EnvDTE.CodeTypeRef.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetName(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Retrieves the value to be returned from the EnvDTE.CodeElement.Name property.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetFullName(Microsoft.CodeAnalysis.SyntaxNode,Microsoft.CodeAnalysis.SemanticModel)">
+            <summary>
+            Retrieves the value to be returned from the EnvDTE.CodeElement.FullName property.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetFullyQualifiedName(System.String,System.Int32,Microsoft.CodeAnalysis.SemanticModel)">
+            <summary>
+            Given a name, attempts to convert it to a fully qualified name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.IsValidExternalSymbol(Microsoft.CodeAnalysis.ISymbol)">
+            <summary>
+            Returns true if the given <paramref name="symbol"/> can be used to create an external code element; otherwise, false.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetExternalSymbolName(Microsoft.CodeAnalysis.ISymbol)">
+            <summary>
+            Returns the value to be returned from <see cref="P:EnvDTE.CodeElement.Name"/> for external code elements.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetExternalSymbolFullName(Microsoft.CodeAnalysis.ISymbol)">
+            <summary>
+            Retrieves the value to be returned from <see cref="P:EnvDTE.CodeElement.FullName"/> for external code elements.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetNodeWithAttributes(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Given a node, finds the related node that holds on to the attribute information.
+            Generally, this will be an ancestor node. For example, given a C# VariableDeclarator,
+            looks up the syntax tree to find the FieldDeclaration.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetEffectiveParentForAttribute(Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Given node for an attribute, returns a node that can represent the parent.
+            For example, an attribute on a C# field cannot use the FieldDeclaration (as it is
+            not keyed) but instead must use one of the FieldDeclaration's VariableDeclarators.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetAccessibility(EnvDTE.vsCMAccess,Microsoft.CodeAnalysis.SymbolKind,Microsoft.CodeAnalysis.CodeGeneration.CodeGenerationDestination)">
+            <summary>
+            Retrieves the Accessibility for an EnvDTE.vsCMAccess. If the specified value is
+            EnvDTE.vsCMAccess.vsCMAccessDefault, then the SymbolKind and CodeGenerationDestination hints
+            will be used to retrieve the correct Accessibility for the current language.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ICodeModelService.GetTypeSymbol(System.Object,Microsoft.CodeAnalysis.SemanticModel,System.Int32)">
+            <summary>
+            Given an "type" argument received from a CodeModel client, converts it to an ITypeSymbol. Note that
+            this parameter is a VARIANT and could be an EnvDTE.vsCMTypeRef, a string representing a fully-qualified
+            type name, or an EnvDTE.CodeTypeRef.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.InternalElements.AbstractCodeElement">
+            <summary>
+            This is the base class of all code elements.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.InternalElements.AbstractCodeElement.Delete">
+            <summary>
+            Delete the element from the source file.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.InternalElements.AbstractCodeType.get_IsDerivedFrom(System.String)">
+            <returns>True if the current type inherits from or equals the type described by the
+            given full name.</returns>
+            <remarks>Equality is included in the check as per Dev10 Bug #725630</remarks>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.InternalElements.AbstractKeyedCodeElement">
+            <summary>
+            This is the base class of all code elements identified by a SyntaxNodeKey.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.InternalElements.AbstractKeyedCodeElement.ReacquireNodeKey(Roslyn.Utilities.SyntaxPath,System.Threading.CancellationToken)">
+            <summary>
+            This function re-acquires the key for this code element using the given syntax path.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.Interop.ApartmentSensitiveComObject.GetComHandle``2">
+            <summary>
+            Creates a ComHandle for this object.
+            </summary>
+            <typeparam name="THandle">The interface type of the handle.</typeparam>
+            <typeparam name="TObject">The type of the derived object.</typeparam>
+            <returns>A ComHandle referencing both the object and the wrapped interface form of the object.</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.Interop.ICodeElements">
+            <summary>
+            A redefinition of the EnvDTE.CodeElements interface. The interface, as defined in the PIA does not do
+            PreserveSig for the Item function. WinForms, specifically, uses the Item property when generating methods to see
+            if a method already exists. The only way it sees if something exists is if the call returns E_INVALIDARG. With
+            the normal PIAs though, this would result in a first-chance exception. Therefore, the WinForms team has their
+            own definition for CodeElements which also [PreserveSig]s Item. We do this here to make their work still
+            worthwhile.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.Interop.IMethodXML.GetBodyPoint(System.Object@)">
+            <param name="ppUnk">Really a TextPoint.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.Interop.IMethodXML2.GetXML">
+            <summary>
+            Returns a string reader of the XML. Unlike IMethodXML, this doesn't require us to convert our XML string to
+            BSTR and back.
+            </summary>
+            <returns>A System.IO.StringReader, even though we just say object here.</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.ITextManagerAdapter">
+            <summary>
+            A shim interface over the TextManager APIs needed to isolate unit tests.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.PrototypeFlags">
+            <summary>
+            Map vsCMPrototype flags to sane names
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.SyntaxNodeKey">
+            <summary>
+            Uniquely identifies a top-level syntax declaration within a SyntaxTree.
+            This is achieved by combining the qualified name of the declaration and an
+            ordinal value. The ordinal value is used to distinguish nodes which have the same
+            qualified name -- for example, across partial classes within the same tree.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.Options.OptionPreviewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

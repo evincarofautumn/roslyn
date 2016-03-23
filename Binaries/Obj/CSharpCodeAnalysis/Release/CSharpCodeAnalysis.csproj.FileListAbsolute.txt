@@ -1,0 +1,16 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\Microsoft.CodeAnalysis.CSharp.CSharpResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\CSharpCodeAnalysis.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\Syntax.xml.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\BoundNodes.xml.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\ErrorFacts.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\Microsoft.CodeAnalysis.CSharp.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Release\CSharpCodeAnalysis.csprojResolveAssemblyReference.cache

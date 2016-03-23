@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Hosting.Diagnostics.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Hosting.Diagnostics.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\PerfMargin\StatusIndicator.baml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\PerfMargin\StatusIndicator.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Roslyn.Hosting.Diagnostics_MarkupCompile.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Roslyn.Hosting.Diagnostics.g.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Roslyn.Hosting.Diagnostics.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Roslyn.Hosting.Diagnostics.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Roslyn.Hosting.Diagnostics.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Debug\Diagnostics.csprojResolveAssemblyReference.cache

@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.LanguageServices.CSharp</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.CodeModel.CSharpCodeModelService.GetMemberNodes(Microsoft.CodeAnalysis.SyntaxNode,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Retrieves the members of a specified <paramref name="container"/> node. The members that are
+            returned can be controlled by passing various parameters.
+            </summary>
+            <param name="container">The <see cref="T:Microsoft.CodeAnalysis.SyntaxNode"/> from which to retrieve members.</param>
+            <param name="includeSelf">If true, the container is returned as well.</param>
+            <param name="recursive">If true, members are recursed to return descendant members as well
+            as immediate children. For example, a namespace would return the namespaces and types within.
+            However, if <paramref name="recursive"/> is true, members with the namespaces and types would
+            also be returned.</param>
+            <param name="logicalFields">If true, field declarations are broken into their respective declarators.
+            For example, the field "int x, y" would return two declarators, one for x and one for y in place
+            of the field.</param>
+            <param name="onlySupportedNodes">If true, only members supported by Code Model are returned.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.CodeModel.CSharpCodeModelService.CreateInternalCodeElement(Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.CodeModelState,Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel,Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>
+            Do not use this method directly! Instead, go through <see cref="M:Microsoft.VisualStudio.LanguageServices.Implementation.CodeModel.FileCodeModel.GetOrCreateCodeElement``1(Microsoft.CodeAnalysis.SyntaxNode)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Debugging.CSharpProximityExpressionsService">
+            <summary>
+            Given a position in a source file, returns the expressions in close proximity that should
+            show up in the debugger 'autos' window.  In general, the expressions we place into the autos
+            window are things that appear to be 'side effect free'.  Note: because we only use the syntax
+            tree for this, it's possible for us to get this wrong.  However, this should only happen in
+            code that behaves unexpectedly.  For example, we will assume that "a + b" is side effect free
+            (when in practice it may not be).  
+            
+            The general tactic we take is to add the expressions for the statements on the
+            line the debugger is currently at.  We will also try to find the 'previous' statement as well
+            to add the expressions from that.  The 'previous' statement is a bit of an interesting beast.
+            Consider, for example, if the user has just jumped out of a switch and is the statement
+            directly following it.  What is the previous statement?  Without keeping state, there's no way
+            to know.  So, in this case, we treat all 'exit points' (i.e. the last statement of a switch
+            section) of the switch statement as the 'previous statement'.  There are many cases like this
+            we need to handle.  Basically anything that might have nested statements/blocks might
+            contribute to the 'previous statement'
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.Snippets.SnippetExpansionClient.InsertEmptyCommentAndGetEndPositionTrackingSpan">
+            <returns>The tracking span of the inserted "/**/" if there is an $end$ location, null
+            otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.Options.AdvancedOptionPageControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Options.Formatting.IndentationViewModel">
+            <summary>
+            Interaction logic for FormattingIndentationOptionControl.xaml
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Options.Formatting.NewLinesViewModel">
+            <summary>
+            Interaction logic for FormattingNewLinesOptionControl.xaml
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Options.Formatting.SpacingViewModel">
+            <summary>
+            Interaction logic for FormattingSpacingOptionControl.xaml
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Options.Formatting.WrappingViewModel">
+            <summary>
+            Interaction logic for FormattingWrappingOptionPage.xaml
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.Options.FormattingOptionPageControl">
+            <summary>
+            Interaction logic for FormattingOptionPageControl.xaml
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.Options.FormattingOptionPageControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.Options.IntelliSenseOptionPageControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.BinaryOperatorSpace">
+            <summary>
+              Looks up a localized string similar to Insert space before and after binary operators.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.BinaryOperatorSpaceIgnore">
+            <summary>
+              Looks up a localized string similar to Ignore spaces around binary operators.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.BinaryOperatorSpaceRemove">
+            <summary>
+              Looks up a localized string similar to Remove spaces before and after binary operators.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.C">
+            <summary>
+              Looks up a localized string similar to C#.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.CatchOnNewLine">
+            <summary>
+              Looks up a localized string similar to Place &quot;catch&quot; on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.ElseOnNewLine">
+            <summary>
+              Looks up a localized string similar to Place &quot;else&quot; on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.FinallyOnNewLine">
+            <summary>
+              Looks up a localized string similar to Place &quot;finally&quot; on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.FormatOnCloseBraceCheckBox">
+            <summary>
+              Looks up a localized string similar to Automatically format _block on }.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.FormatOnPasteCheckBox">
+            <summary>
+              Looks up a localized string similar to Automatically format on _paste.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.FormatOnSemicolonCheckBox">
+            <summary>
+              Looks up a localized string similar to Automatically format _statement on ;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.GotoLeftmost">
+            <summary>
+              Looks up a localized string similar to Place goto labels in leftmost column.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.GotoNoIndent">
+            <summary>
+              Looks up a localized string similar to Indent labels normally.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.GotoOneLess">
+            <summary>
+              Looks up a localized string similar to Place goto labels one indent less than current.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.IndentBlock">
+            <summary>
+              Looks up a localized string similar to Indent block contents.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.IndentBraces">
+            <summary>
+              Looks up a localized string similar to Indent open and close braces.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.IndentSwitchCaseContents">
+            <summary>
+              Looks up a localized string similar to Indent case contents.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.IndentSwitchCaseLabels">
+            <summary>
+              Looks up a localized string similar to Indent case labels.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.InsertSnippet">
+            <summary>
+              Looks up a localized string similar to Insert Snippet.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.LabelIndentation">
+            <summary>
+              Looks up a localized string similar to Label Indentation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineBraces">
+            <summary>
+              Looks up a localized string similar to New line options for braces.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineExpressions">
+            <summary>
+              Looks up a localized string similar to New line options for expressions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineForClausesInQuery">
+            <summary>
+              Looks up a localized string similar to Place query expression clauses on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineForMembersInAnonymousTypes">
+            <summary>
+              Looks up a localized string similar to Place members in anonymous types on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineForMembersInObjectInit">
+            <summary>
+              Looks up a localized string similar to Place members in object initializers on new line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLineKeywords">
+            <summary>
+              Looks up a localized string similar to New line options for keywords.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesBracesType">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for types.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesAccessors">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for property, indexer, and event accessors.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesInAnonymousMethods">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for anonymous methods.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesInAnonymousTypes">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for anonymous types.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesInControlBlocks">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for control blocks.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesInLambdaExpressionBody">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for lambda expression.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesInObjectCollectionArrayInitializers">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for object, collection and array initializers.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesMethod">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for methods.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.NewLinesForBracesProperty">
+            <summary>
+              Looks up a localized string similar to Place open brace on new line for properties, indexers, and events.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_AllowMovingDeclaration">
+            <summary>
+              Looks up a localized string similar to _Move local declaration to the extracted method if it is not used elsewhere.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_BringUpOnIdentifier">
+            <summary>
+              Looks up a localized string similar to _Show completion list after a character is typed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_ClosedFileDiagnostics">
+            <summary>
+              Looks up a localized string similar to Enable full solution _analysis.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_CompletionLists">
+            <summary>
+              Looks up a localized string similar to Completion Lists.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_DisplayLineSeparators">
+            <summary>
+              Looks up a localized string similar to _Show procedure line separators.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_DontPutOutOrRefOnStruct">
+            <summary>
+              Looks up a localized string similar to _Don&apos;t put ref or out on custom struct.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_EditorHelp">
+            <summary>
+              Looks up a localized string similar to Editor Help.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_EnableHighlightKeywords">
+            <summary>
+              Looks up a localized string similar to Highlight related _keywords under cursor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_EnableHighlightReferences">
+            <summary>
+              Looks up a localized string similar to _Highlight references to symbol under cursor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_EnterOutliningMode">
+            <summary>
+              Looks up a localized string similar to Enter _outlining mode when files open.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_ExtractMethod">
+            <summary>
+              Looks up a localized string similar to Extract Method.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_GenerateXmlDocCommentsForTripleSlash">
+            <summary>
+              Looks up a localized string similar to _Generate XML documentation comments for ///.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_Highlighting">
+            <summary>
+              Looks up a localized string similar to Highlighting.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_InsertAsteriskAtTheStartOfNewLinesWhenWritingBlockComments">
+            <summary>
+              Looks up a localized string similar to _Insert * at the start of new lines when writing /* */ comments.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_InsertNewlineOnEnterWithWholeWord">
+            <summary>
+              Looks up a localized string similar to _Add new line on enter after end of fully typed word.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_OptimizeForSolutionSize">
+            <summary>
+              Looks up a localized string similar to Optimize for solution size.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_OptimizeForSolutionSize_Large">
+            <summary>
+              Looks up a localized string similar to Large.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_OptimizeForSolutionSize_Regular">
+            <summary>
+              Looks up a localized string similar to Regular.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_OptimizeForSolutionSize_Small">
+            <summary>
+              Looks up a localized string similar to Small.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_OrganizeUsings">
+            <summary>
+              Looks up a localized string similar to Organize Usings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_Outlining">
+            <summary>
+              Looks up a localized string similar to Outlining.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_Performance">
+            <summary>
+              Looks up a localized string similar to Performance.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_PlaceSystemNamespaceFirst">
+            <summary>
+              Looks up a localized string similar to _Place &apos;System&apos; directives first when sorting usings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_RenameTrackingPreview">
+            <summary>
+              Looks up a localized string similar to Show preview for _rename tracking.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_SelectionInCompletionList">
+            <summary>
+              Looks up a localized string similar to Selection In Completion List.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_ShowKeywords">
+            <summary>
+              Looks up a localized string similar to Place _keywords in completion lists.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_ShowSnippets">
+            <summary>
+              Looks up a localized string similar to Place _code snippets in completion lists.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.Option_WarnOnBuildErrors">
+            <summary>
+              Looks up a localized string similar to Warn if _build errors exist when organizing usings.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.PreferIntrinsicPredefinedTypeKeywordInDeclaration">
+            <summary>
+              Looks up a localized string similar to Prefer intrinsic predefined type keyword when declaring locals, parameters and members.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.PreferIntrinsicPredefinedTypeKeywordInMemberAccess">
+            <summary>
+              Looks up a localized string similar to Prefer intrinsic predefined type keyword in member access expressions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.QualifyMemberAccessWithThis">
+            <summary>
+              Looks up a localized string similar to Qualify member access with &apos;this&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetOtherSpacingOptions">
+            <summary>
+              Looks up a localized string similar to Set other spacing options.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetSpacingForBrackets">
+            <summary>
+              Looks up a localized string similar to Set spacing for brackets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetSpacingForDelimiters">
+            <summary>
+              Looks up a localized string similar to Set spacing for delimiters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetSpacingForMethodCalls">
+            <summary>
+              Looks up a localized string similar to Set spacing for method calls.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetSpacingForMethodDeclarations">
+            <summary>
+              Looks up a localized string similar to Set spacing for method declarations.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SetSpacingForOperators">
+            <summary>
+              Looks up a localized string similar to Set spacing for operators.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterCast">
+            <summary>
+              Looks up a localized string similar to Insert space after cast.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterColonInBaseTypeDeclaration">
+            <summary>
+              Looks up a localized string similar to Insert space after colon for base or interface in type declaration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterComma">
+            <summary>
+              Looks up a localized string similar to Insert space after comma.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterControlFlowStatementKeyword">
+            <summary>
+              Looks up a localized string similar to Insert space after keywords in control flow statements.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterDot">
+            <summary>
+              Looks up a localized string similar to Insert space after dot.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterMethodCallName">
+            <summary>
+              Looks up a localized string similar to Insert space between method name and its opening parenthesis.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceAfterSemicolonsInForStatement">
+            <summary>
+              Looks up a localized string similar to Insert space after semicolon in &quot;for&quot; statement.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBeforeColonInBaseTypeDeclaration">
+            <summary>
+              Looks up a localized string similar to Insert space before colon for base or interface in type declaration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBeforeComma">
+            <summary>
+              Looks up a localized string similar to Insert space before comma.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBeforeDot">
+            <summary>
+              Looks up a localized string similar to Insert space before dot.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBeforeOpenSquareBracket">
+            <summary>
+              Looks up a localized string similar to Insert space before open square bracket.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBeforeSemicolonsInForStatement">
+            <summary>
+              Looks up a localized string similar to Insert space before semicolon in &quot;for&quot; statement.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBetweenEmptyMethodCallParentheses">
+            <summary>
+              Looks up a localized string similar to Insert space within empty argument list parentheses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBetweenEmptyMethodDeclarationParentheses">
+            <summary>
+              Looks up a localized string similar to Insert space within empty parameter list parentheses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceBetweenEmptySquareBrackets">
+            <summary>
+              Looks up a localized string similar to Insert space within empty square brackets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpacesIgnoreAroundVariableDeclaration">
+            <summary>
+              Looks up a localized string similar to Ignore spaces in declaration statements.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinCastParentheses">
+            <summary>
+              Looks up a localized string similar to Insert space within parentheses of type casts.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinExpressionParentheses">
+            <summary>
+              Looks up a localized string similar to Insert space within parentheses of expressions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinMethodCallParentheses">
+            <summary>
+              Looks up a localized string similar to Insert space within argument list parentheses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinMethodDeclarationParenthesis">
+            <summary>
+              Looks up a localized string similar to Insert space within parameter list parentheses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinOtherParentheses">
+            <summary>
+              Looks up a localized string similar to Insert spaces within parentheses of control flow statements.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpaceWithinSquareBrackets">
+            <summary>
+              Looks up a localized string similar to Insert spaces within square brackets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SpacingAfterMethodDeclarationName">
+            <summary>
+              Looks up a localized string similar to Insert space between method name and its opening parenthesis.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.SurroundWith">
+            <summary>
+              Looks up a localized string similar to Surround With.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.UseVarWhenGeneratingLocals">
+            <summary>
+              Looks up a localized string similar to Use &apos;var&apos; when generating locals.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.WrappingKeepStatementsOnSingleLine">
+            <summary>
+              Looks up a localized string similar to Leave statements and member declarations on the same line.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.CSharp.CSharpVSResources.WrappingPreserveSingleLine">
+            <summary>
+              Looks up a localized string similar to Leave block on single line.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.EventHookup.HACK_EventHookupDismissalOnBufferChangePreventerService">
+            <summary>
+            Need to trick ShimQuickInfoController into leaving Quick Info Sessions created by
+            EventHookupCommandHandler visible even through buffer changed events. We must set its 
+            private _session field via reflection.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.EventHookup.HACK_EventHookupDismissalOnBufferChangePreventerService.HACK_QuickInfoSession">
+            <summary>
+            The Properties property must contain an IVsTextTipData (which is never used), but no 
+            other methods need to be implemented.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.EventHookup.HACK_EventHookupDismissalOnBufferChangePreventerService.HACK_VsTextTipData">
+            <summary>
+            None of the methods need to be implemented.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.CSharpProjectShim">
+            <summary>
+            The representation of a project to both the project factory and workspace API.
+            </summary>
+            <remarks>
+            Due to the number of interfaces this object must implement, all interface implementations
+            are in a separate files. Methods that are shared across multiple interfaces (which are
+            effectively methods that just QI from one interface to another), are implemented here.
+            </remarks>
+        </member>
+        <member name="F:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.CSharpProjectShim._warningNumberArrayPointer">
+            <summary>
+            This member is used to store a raw array of warning numbers, which is needed to properly implement
+            ICSCompilerConfig.GetWarnNumbers. Read the implementation of that function for more details.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.CSharpProjectShim._startupClasses">
+            <summary>
+            When the project property page calls GetValidStartupClasses on us, it assumes
+            the strings passed to it are in the native C# language service's string table 
+            and never frees them. To avoid leaking our strings, we allocate them on the 
+            native heap for each call and keep the pointers here. On subsequent calls
+            or on disposal, we free the old strings before allocating the new ones.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.CSharpProjectShim.GetProjectSite(Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot)">
+            <summary>
+            Given a ICSharpProjectRoot instance, it returns the ProjectSite instance, throwing if it
+            could not be obtained.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.HACK_VariantStructure">
+            <summary>
+            This is a terrible, terrible hack around the C# project system in
+            CCscMSBuildHostObject::SetDelaySign. To indicate a value of "unset"
+            for boolean options, they create variant of type VT_BOOL with the boolean
+            field being a value of "4". The CLR, if it marshals this variant, marshals
+            it as a "true" which is indistinguishable from a real VARIANT_TRUE. So
+            instead we define this structure of the same layout, and marshal the variant
+            as this structure. We can then pick out this broken pattern, and convert
+            it to null instead of true.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSCompiler.GetNameTable">
+            <summary>
+            Get the name table used by the compiler.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSCompiler.Shutdown">
+            <summary>
+            Shutdown the compiler. This is called by whoever is "in charge" of the compiler (usually the host itself)
+            when it is done with it.  It is used to relieve circular references between the compiler and its host.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSCompilerConfig.GetOptionCount">
+            <summary>
+            Return the number of options available.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSCompilerConfig.GetOptionInfoAt(System.Int32,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.CompilerOptions@,System.String@,System.String@,System.UInt32@)">
+            <summary>
+            Return info about the given option.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSCompilerConfig.CommitChanges(Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSError@)">
+            <summary>
+            Commit changes to the options, validating first. If the configuration as it is currently is invalid, S_FALSE
+            is returned, and error is populated with an error describing the problem.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectHost">
+            <summary>
+            ICSharpProjectHost is exposed by the language service, and receives notification of project creation or opening.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectHost.BindToProject(Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot,Microsoft.VisualStudio.Shell.Interop.IVsHierarchy)">
+            <summary>
+            This function is called when a project is opened/created. The language service must site the project object,
+            and can keep a pointer to it for its own tracking purposes, etc.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectSite.Disconnect">
+            This function is called when the project is being closed.  The site
+            should release any referenced pointers it has on the project object.
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectSite.Unused">
+            <summary>
+            This function is unused and unimplemented. It is just a placeholder in the vtable for this public interface.
+            </summary>
+            <remarks>See http://psph/devdiv~bugs/114172. </remarks>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectSite.OnProjectLoadCompletion">
+            <summary>
+            Called when the project is fully loaded -- used to signal the background parsing thread to begin processing
+            project files.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectSite.OnImportAddedEx(System.String,System.String,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.CompilerOptions)">
+            <summary>
+            Called when references (imports) are added. If the reference is a project-reference, project specifies the
+            project uniquely. Otherwise it is NULL. On removal, it is up to the callee to know whether the file
+            specified as a project reference.
+            </summary>
+            <param name="filename">The filename to add a reference to.</param>
+            <param name="project">If the reference being added is a project reference, then this is a non-null string
+            that defines this uniquely.</param>
+            <param name="optionID">A CompilerOption enumeration indicating whether the reference is a regular reference 
+            (OPTID_IMPORTS) or the one that needs to be embedded into the target assembly
+            (OPTID_IMPORTSUSINGNOPIA).</param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite">
+            <summary>
+            Implemented to support project-to-project references. Despite its name, it's used for things other than Venus.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite.AddReferenceToCodeDirectory(System.String,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot)">
+            <summary>
+            This function should not be used by any new code; it is now superseded by AddReferenceToCodeDirectoryEx. The
+            function has not been removed due to the hard-dependency on this particular signature in Venus' templates.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite.RemoveReferenceToCodeDirectory(System.String,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot)">
+            <summary>
+            Called by the venus project system to tell the project site to remove a live reference to an existing C#
+            code directory.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite.OnDiskFileUpdated(System.String,System.Runtime.InteropServices.ComTypes.FILETIME@)">
+             <summary> NOTE: This is not called by any project system in Dev11 according
+             to http://bang/.  Remove?
+            
+             [Optional] Called by the Venus Project system when a file of the Project
+             site has been updated outside the editor. This is a workaround to allow
+             the Venus project system implement a FileSystemWatcher for C#, since
+             the C# language service doesn't support this yet.
+             Not calling this when a file is updated on disk means code sense
+             will not be up to date wrt to the changes on disk.
+             </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite.OnCodeDirectoryAliasesChanged(Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot,System.Int32,System.String[],System.Int32,System.String[])">
+            <summary>Called when aliases for an import are changed</summary>
+            <param name="project">the project whose aliases we are changing</param>
+            <param name="previousAliasesCount">number of elements in the previousAliases array</param>
+            <param name="currentAliasesCount">number of elements in the currentAliases array</param>
+            <param name="currentAliases">the previous aliases for this import</param>
+            <param name="previousAliases">the current aliases for this import</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpVenusProjectSite.AddReferenceToCodeDirectoryEx(System.String,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.ICSharpProjectRoot,Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.CompilerOptions)">
+            <summary>
+            Called by the project system to tell the project site to create a live reference to an existing C# code
+            directory.
+            </summary>
+            <param name="assemblyFileName">The assembly file specified by "assemblyFileName" doesn't need to physically
+            exist on disk for CodeSense to work, but calling "Build" on the project will fail if the file doesn't exist
+            at that point.</param>
+            <param name="project">The project site for "project" must exist (i.e. BindToProject(project) must have been
+            called prior to this call)</param>
+            <param name="optionID">Indicates whether the reference is a regular reference or one that needs to be
+            embedded into the target assembly (as indicated to the compiler through /link compiler option).</param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.Interop.OutputFileType">
+            <summary>
+            Matches OutputFileTypes in the legacy vsl\idl\csharppublic\csiface\csiface.idl
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.CSharp.ProjectSystemShim.TempPECompilerService">
+             <summary>
+             An implementation a TempPE compiler that is called by the project system.
+            
+             This class is free-threaded.
+             </summary>
+        </member>
+    </members>
+</doc>

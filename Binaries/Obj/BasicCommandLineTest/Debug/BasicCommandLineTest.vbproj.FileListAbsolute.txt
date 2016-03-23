@@ -1,0 +1,16 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbc.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\BasicCommandLineTest.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\CommandLineTestResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\BasicCommandLineTest.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCommandLineTest\Debug\Roslyn.Compilers.VisualBasic.CommandLine.UnitTests.pdb

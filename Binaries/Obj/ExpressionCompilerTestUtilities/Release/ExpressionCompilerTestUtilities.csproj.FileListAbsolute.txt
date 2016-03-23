@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.UnitTests.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\ExpressionCompilerTestUtilities.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\Roslyn.ExpressionEvaluator.ExpressionCompiler.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompilerTestUtilities\Release\ExpressionCompilerTestUtilities.csprojResolveAssemblyReference.cache

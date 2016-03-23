@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.CodeAnalysis.InteractiveEditorFeatures</name>
+    </assembly>
+    <members>
+        <member name="F:Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator._submissionBuffers">
+            <remarks>
+            This is a set because the same buffer might be re-added when the content type is changed.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.CodeAnalysis.Editor.Interactive.InteractiveEvaluator.ProcessStarting(System.Boolean)">
+            <summary>
+            Invoked by <see cref="T:Microsoft.CodeAnalysis.Interactive.InteractiveHost"/> when a new process is being started.
+            </summary>
+        </member>
+        <member name="T:Microsoft.CodeAnalysis.Editor.Interactive.AbstractSendToInteractiveSubmissionProvider">
+             <summary>
+             Implementers of this interface are responsible for retrieving source code that
+             should be sent to the REPL given the user's selection.
+            
+             If the user does not make a selection then a line should be selected.
+             If the user selects code that fails to be parsed then the selection gets expanded
+             to a syntax node.
+             </summary>
+        </member>
+        <member name="M:Microsoft.CodeAnalysis.Editor.Interactive.AbstractSendToInteractiveSubmissionProvider.GetExecutableSyntaxTreeNodeSelection(Microsoft.CodeAnalysis.Text.TextSpan,Microsoft.CodeAnalysis.SyntaxNode)">
+            <summary>Expands the selection span of an invalid selection to a span that should be sent to REPL.</summary>
+        </member>
+        <member name="M:Microsoft.CodeAnalysis.Editor.Interactive.AbstractSendToInteractiveSubmissionProvider.CanParseSubmission(System.String)">
+            <summary>Returns whether the submission can be parsed in interactive.</summary>
+        </member>
+        <member name="M:Microsoft.CodeAnalysis.Editor.Interactive.AbstractSendToInteractiveSubmissionProvider.GetExpandedLineAsync(Microsoft.VisualStudio.Text.Editor.IEditorOptions,Microsoft.CodeAnalysis.Editor.CommandArgs,System.Threading.CancellationToken)">
+            <summary>Returns the span for the selected line. Extends it if it is a part of a multi line statement or declaration.</summary>
+        </member>
+        <member name="M:Microsoft.CodeAnalysis.Editor.Interactive.AbstractSendToInteractiveSubmissionProvider.GetSelectedLine(Microsoft.VisualStudio.Text.Editor.ITextView)">
+            <summary>Returns the span for the currently selected line.</summary>
+        </member>
+        <member name="T:Microsoft.CodeAnalysis.Editor.Implementation.Interactive.InertClassifierProvider">
+            <summary>
+            A classifier provider that caches the classification results from actual classifiers and
+            stores it on the text buffer so they can be used from that point on.  Used for interactive
+            buffers that have been reset but which we still want to look good.
+            </summary>
+        </member>
+        <member name="T:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.BuildingProject">
+            <summary>
+              Looks up a localized string similar to Building Project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.CopyToInteractiveDescription">
+            <summary>
+              Looks up a localized string similar to Copying selection to Interactive Window..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ExecuteInInteractiveDescription">
+            <summary>
+              Looks up a localized string similar to Executing selection in Interactive Window..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ReferencesCommandDescription">
+            <summary>
+              Looks up a localized string similar to Print a list of referenced assemblies..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ReferencesCommandEvaluatorError">
+            <summary>
+              Looks up a localized string similar to The references command is not supported in this Interactive Window implementation..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ResetCommandDescription">
+            <summary>
+              Looks up a localized string similar to Reset the execution environment to the initial state, keep history..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ResetCommandParametersDescription">
+            <summary>
+              Looks up a localized string similar to Reset to a clean environment (only mscorlib referenced), do not run initialization script..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ResettingExecutionEngine">
+            <summary>
+              Looks up a localized string similar to Resetting execution engine..
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.ResettingInteractive">
+            <summary>
+              Looks up a localized string similar to Resetting Interactive.
+            </summary>
+        </member>
+        <member name="P:Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.WindowSetAgainException">
+            <summary>
+              Looks up a localized string similar to The CurrentWindow property may only be assigned once..
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.InteractiveWindow.Commands.ResetCommand">
+            <summary>
+            Represents a reset command which can be run from a REPL window.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.InteractiveWindow.Commands.ResetCommand.GetNoConfigPositions(System.String)">
+            <remarks>
+            Internal for testing.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.VisualStudio.InteractiveWindow.Commands.ResetCommand.TryParseArguments(System.String,System.Boolean@)">
+            <remarks>
+            Accessibility is internal for testing.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Editor.Interactive.CSharpVBInteractiveCommandsContentTypes">
+            <summary>
+            Represents the content type for specialized interactive commands for C# and VB
+            interactive window which override the implementation of these commands in underlying
+            interactive window.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Interactive.ResetInteractive">
+            <summary>
+            ResetInteractive class that implements base functionality for reset interactive command.
+            Does not depend on VS classes to make it easier to stub out and test.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.ResetInteractive.GetProjectProperties(System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.String@)">
+            <summary>
+            Gets the properties of the currently selected projects necessary for reset.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.ResetInteractive.BuildProject">
+            <summary>
+            A method that should trigger an async project build.
+            </summary>
+            <returns>Whether or not the build was successful.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.ResetInteractive.CancelBuildProject">
+            <summary>
+            A method that should trigger a project cancellation.
+            </summary>
+        </member>
+    </members>
+</doc>

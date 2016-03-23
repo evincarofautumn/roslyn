@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\PerfTests\DebuggerSteppingTestcase.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpExpressionCompilerTest\Debug\CSharpExpressionCompilerTest.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpExpressionCompilerTest\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpExpressionCompilerTest\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpExpressionCompilerTest\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpExpressionCompilerTest\Debug\Roslyn.ExpressionEvaluator.CSharp.ExpressionCompiler.UnitTests.pdb

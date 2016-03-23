@@ -1,0 +1,6 @@
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\Microsoft.VisualStudio.VsInteractiveWindow.dll
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\Microsoft.VisualStudio.InteractiveWindow.dll
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\Microsoft.VisualStudio.VsInteractiveWindow.pkgdef
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\extension.vsixmanifest
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\Microsoft.VisualStudio.VsInteractiveWindow.pdb
+C:\Users\Jonathan Purdy\AppData\Local\Microsoft\VisualStudio\14.0RoslynDev\Extensions\Microsoft\VisualStudio Interactive Components\42.42.42.42\\Microsoft.VisualStudio.InteractiveWindow.pdb

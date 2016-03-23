@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\Resource.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\BasicCompilerSemanticTest.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\Roslyn.Compilers.VisualBasic.Semantic.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerSemanticTest\Release\BasicCompilerSemanticTest.vbprojResolveAssemblyReference.cache

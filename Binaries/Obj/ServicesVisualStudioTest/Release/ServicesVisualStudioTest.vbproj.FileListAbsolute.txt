@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\PerfTests\ResetRoslynOptions.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Services.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Services.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.Services.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\ServicesVisualStudioTest.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\ServicesVisualStudioTest.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\Roslyn.VisualStudio.Services.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\Roslyn.VisualStudio.Services.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioTest\Release\Roslyn.VisualStudio.Services.UnitTests.pdb

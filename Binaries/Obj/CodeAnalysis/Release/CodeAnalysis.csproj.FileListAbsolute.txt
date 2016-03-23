@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\Microsoft.CodeAnalysis.CodeAnalysisResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\CodeAnalysis.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\CodeAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\Microsoft.CodeAnalysis.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\Microsoft.CodeAnalysis.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CodeAnalysis\Release\Microsoft.CodeAnalysis.pdb

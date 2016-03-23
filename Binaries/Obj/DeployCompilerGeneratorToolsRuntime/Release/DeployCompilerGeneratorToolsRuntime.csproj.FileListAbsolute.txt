@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\DeployCompilerGeneratorToolsRuntime_DoNotUse.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\DeployCompilerGeneratorToolsRuntime_DoNotUse.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\DeployCompilerGeneratorToolsRuntime_DoNotUse.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\DeployCompilerGeneratorToolsRuntime_DoNotUse.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\DeployCompilerGeneratorToolsRuntime.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\DeployCompilerGeneratorToolsRuntime.csproj.DeployCompilerGeneratorToolsRuntime_DoNotUse.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\DeployCompilerGeneratorToolsRuntime_DoNotUse.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\DeployCompilerGeneratorToolsRuntime_DoNotUse.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployCompilerGeneratorToolsRuntime\Release\DeployCompilerGeneratorToolsRuntime_DoNotUse.pdb

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.InteractiveServices</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.VsInteractiveWindowPackage`1.Microsoft#VisualStudio#Shell#Interop#IVsToolWindowFactory#CreateToolWindow(System.Guid@,System.UInt32)">
+            <summary>
+            When a VSPackage supports multi-instance tool windows, each window uses the same rguidPersistenceSlot.
+            The dwToolWindowId parameter is used to differentiate between the various instances of the tool window.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.CommonVsUtils.GetActiveTextView">
+            <summary>
+            Gets the current IWpfTextView that is the active document.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.VsResetInteractive.GetProjectProperties(System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.Collections.Immutable.ImmutableArray{System.String}@,System.String@)">
+            <summary>
+            Gets the properties of the currently selected projects necessary for reset.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Interactive.VsResetInteractive.GetNamespacesToImportAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.VisualStudio.InteractiveWindow.IInteractiveWindow)">
+            <summary>
+            Return namespaces that can be resolved in the latest interactive compilation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Interactive.ScriptingOleCommandTarget">
+            <summary>
+            This command target routes commands in interactive window, .csx files and also interactive
+            commands in .cs files.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Interactive.VsUpdateSolutionEvents">
+            <summary>
+            Allows us to watch solution events so we can track the build when we run the
+            "ResetInteractiveFromProject".
+            </summary>
+        </member>
+    </members>
+</doc>

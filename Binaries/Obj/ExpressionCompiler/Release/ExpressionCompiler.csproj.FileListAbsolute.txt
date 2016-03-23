@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\ExpressionCompiler.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionCompiler\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ExpressionCompiler.pdb

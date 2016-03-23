@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\DeplyDesktopTestRuntime_DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\DeplyDesktopTestRuntime_DoNotUse.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployDesktopTestRuntime\Release\DeployDesktopTestRuntime.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployDesktopTestRuntime\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployDesktopTestRuntime\Release\DeplyDesktopTestRuntime_DoNotUse.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployDesktopTestRuntime\Release\DeplyDesktopTestRuntime_DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\DeployDesktopTestRuntime\Release\DeplyDesktopTestRuntime_DoNotUse.pdb

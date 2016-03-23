@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\ResultProviderTestUtilities.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\Roslyn.ExpressionEvaluator.ResultProvider.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProviderTestUtilities\Debug\ResultProviderTestUtilities.csprojResolveAssemblyReference.cache

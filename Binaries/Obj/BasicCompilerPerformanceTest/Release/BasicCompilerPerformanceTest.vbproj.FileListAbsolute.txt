@@ -1,0 +1,11 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.Basic.PerformanceTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.Basic.PerformanceTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.Basic.PerformanceTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerPerformanceTest\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerPerformanceTest\Release\Roslyn.Compilers.Basic.PerformanceTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerPerformanceTest\Release\Roslyn.Compilers.Basic.PerformanceTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerPerformanceTest\Release\Roslyn.Compilers.Basic.PerformanceTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerPerformanceTest\Release\BasicCompilerPerformanceTest.vbprojResolveAssemblyReference.cache

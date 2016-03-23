@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\Microsoft.DiaSymReader.PortablePdb.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\GeneratedAssemblyInfo_1.0.0.0.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\Microsoft.DiaSymReader.PortablePdb.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\Microsoft.DiaSymReader.PortablePdb.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb\Release\Microsoft.DiaSymReader.PortablePdb.pdb

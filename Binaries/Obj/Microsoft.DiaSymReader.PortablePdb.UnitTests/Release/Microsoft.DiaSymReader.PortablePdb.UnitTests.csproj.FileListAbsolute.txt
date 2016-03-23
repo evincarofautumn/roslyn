@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb.UnitTests\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb.UnitTests\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb.UnitTests\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb.UnitTests\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Microsoft.DiaSymReader.PortablePdb.UnitTests\Release\Microsoft.DiaSymReader.PortablePdb.UnitTests.pdb

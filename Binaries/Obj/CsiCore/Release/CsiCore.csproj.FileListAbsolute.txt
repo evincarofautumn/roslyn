@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\csi.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\csi.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\csi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\csi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csicore\csi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\CsiCore.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\CsiCore.csproj.csi.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\csi.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\csi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CsiCore\Release\csi.pdb

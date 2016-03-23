@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.Debugger.Engine.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.Portable\Debug\CSharpResultProvider.Portable.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.Portable\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.Portable\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.Portable\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProvider.Portable\Debug\Microsoft.CodeAnalysis.CSharp.ExpressionEvaluator.ResultProvider.pdb

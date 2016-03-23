@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\vbi.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\vbi.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\vbi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\vbi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbicore\vbi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\VbiCore.vbproj.vbi.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\vbi.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\vbi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\vbi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\vbi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbiCore\Release\VbiCore.vbprojResolveAssemblyReference.cache

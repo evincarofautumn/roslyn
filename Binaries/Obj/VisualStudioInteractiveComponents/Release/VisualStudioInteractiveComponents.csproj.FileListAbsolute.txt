@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.InteractiveComponents.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.InteractiveComponents.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.InteractiveComponents.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.VisualStudio.InteractiveComponents.vsix
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\Roslyn.VisualStudio.InteractiveComponents.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\Roslyn.VisualStudio.InteractiveComponents.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\Roslyn.VisualStudio.InteractiveComponents.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\Roslyn.VisualStudio.InteractiveComponents.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\Roslyn.VisualStudio.InteractiveComponents.latest.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\extension.vsixmanifest
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveComponents\Release\VisualStudioInteractiveComponents.csprojResolveAssemblyReference.cache

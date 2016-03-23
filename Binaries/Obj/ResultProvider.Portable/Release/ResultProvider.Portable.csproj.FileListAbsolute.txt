@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\ResultProvider.Portable.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.Portable\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.pdb

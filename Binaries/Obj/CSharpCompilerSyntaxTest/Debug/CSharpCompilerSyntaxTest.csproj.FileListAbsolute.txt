@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\CSharpCompilerSyntaxTest.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\Microsoft.CodeAnalysis.CSharp.UnitTests.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\CSharpCompilerSyntaxTest.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\Syntax.xml.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCompilerSyntaxTest\Debug\Roslyn.Compilers.CSharp.Syntax.UnitTests.pdb

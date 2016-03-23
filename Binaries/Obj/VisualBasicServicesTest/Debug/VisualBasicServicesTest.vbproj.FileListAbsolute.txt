@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Services.VisualBasic.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Services.VisualBasic.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Services.VisualBasic.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\XmlLiterals.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\VisualBasicServicesTest.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\Roslyn.Services.VisualBasic.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\Roslyn.Services.VisualBasic.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\Roslyn.Services.VisualBasic.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicServicesTest\Debug\VisualBasicServicesTest.vbprojResolveAssemblyReference.cache

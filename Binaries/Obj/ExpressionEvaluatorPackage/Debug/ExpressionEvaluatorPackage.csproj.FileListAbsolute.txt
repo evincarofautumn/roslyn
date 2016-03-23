@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ExpressionEvaluatorPackage.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ExpressionEvaluatorPackage.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ExpressionEvaluatorPackage.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ExpressionEvaluatorPackage.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ExpressionEvaluatorPackage.vsix
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\ExpressionEvaluatorPackage.latest.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ExpressionEvaluatorPackage\Debug\extension.vsixmanifest

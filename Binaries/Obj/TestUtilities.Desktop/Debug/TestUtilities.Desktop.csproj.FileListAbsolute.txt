@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Test.Utilities.Desktop.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Test.Utilities.Desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Test.Utilities.Desktop.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\TestUtilities.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\Roslyn.Test.Utilities.TestResource.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\TestUtilities.Desktop.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\Roslyn.Test.Utilities.Desktop.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\Roslyn.Test.Utilities.Desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\TestUtilities.Desktop\Debug\Roslyn.Test.Utilities.Desktop.pdb

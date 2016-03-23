@@ -1,0 +1,11 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveFeatures.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveFeatures.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\InteractiveFeatures.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\Microsoft.CodeAnalysis.InteractiveFeatures.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\Microsoft.CodeAnalysis.InteractiveFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveFeatures\Release\Microsoft.CodeAnalysis.InteractiveFeatures.pdb

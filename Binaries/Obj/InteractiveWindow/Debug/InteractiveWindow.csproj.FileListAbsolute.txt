@@ -1,0 +1,11 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveWindow.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveWindow.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveWindow.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\InteractiveWindow.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\Microsoft.VisualStudio.InteractiveWindow.InteractiveWindowResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\InteractiveWindow.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\Microsoft.VisualStudio.InteractiveWindow.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\Microsoft.VisualStudio.InteractiveWindow.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveWindow\Debug\Microsoft.VisualStudio.InteractiveWindow.pdb

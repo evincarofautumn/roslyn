@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProviderTest\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProviderTest\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProviderTest\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProviderTest\Debug\Roslyn.ExpressionEvaluator.VisualBasic.ResultProvider.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProviderTest\Debug\BasicResultProviderTest.vbprojResolveAssemblyReference.cache

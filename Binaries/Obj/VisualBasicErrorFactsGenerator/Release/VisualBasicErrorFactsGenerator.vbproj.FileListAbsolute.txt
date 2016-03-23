@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\VBErrorFactsGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\VBErrorFactsGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CompilerGeneratorTools\VBErrorFactsGenerator.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicErrorFactsGenerator\Release\VisualBasicErrorFactsGenerator.vbproj.VBErrorFactsGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicErrorFactsGenerator\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicErrorFactsGenerator\Release\VBErrorFactsGenerator.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicErrorFactsGenerator\Release\VBErrorFactsGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicErrorFactsGenerator\Release\VBErrorFactsGenerator.pdb

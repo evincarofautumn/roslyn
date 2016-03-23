@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\PerfTests\ResetRoslynOptions.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests2.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests2.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests2.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Services.Editor.UnitTests2.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\EditorServicesTest2.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\Roslyn.Services.Editor.UnitTests2.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\Roslyn.Services.Editor.UnitTests2.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\Roslyn.Services.Editor.UnitTests2.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\EditorServicesTest2\Release\Roslyn.Services.Editor.UnitTests2.pdb

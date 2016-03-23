@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\VBSyntaxGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\VBSyntaxGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\VBSyntaxGenerator.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\VisualBasicSyntaxGenerator.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\VisualBasicSyntaxGenerator.vbproj.VBSyntaxGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\VBSyntaxGenerator.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\VBSyntaxGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualBasicSyntaxGenerator\Debug\VBSyntaxGenerator.pdb

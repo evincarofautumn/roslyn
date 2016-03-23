@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csc.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\Microsoft.CodeAnalysis.CSharp.CommandLine.UnitTests.CommandLineTestResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\CSharpCommandLineTest.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\Roslyn.Compilers.CSharp.CommandLine.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Release\CSharpCommandLineTest.csprojResolveAssemblyReference.cache

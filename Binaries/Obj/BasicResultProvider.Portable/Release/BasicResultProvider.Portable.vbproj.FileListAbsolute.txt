@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\Syntax.xml.Generated.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicResultProvider.Portable\Release\BasicResultProvider.Portable.vbprojResolveAssemblyReference.cache

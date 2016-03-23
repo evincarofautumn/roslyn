@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpErrorFactsGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpErrorFactsGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpErrorFactsGenerator.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpErrorFactsGenerator\Debug\CSharpErrorFactsGenerator.csproj.CSharpErrorFactsGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpErrorFactsGenerator\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpErrorFactsGenerator\Debug\CSharpErrorFactsGenerator.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpErrorFactsGenerator\Debug\CSharpErrorFactsGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpErrorFactsGenerator\Debug\CSharpErrorFactsGenerator.pdb

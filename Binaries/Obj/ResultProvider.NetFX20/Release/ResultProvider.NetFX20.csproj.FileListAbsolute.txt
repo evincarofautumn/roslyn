@@ -1,0 +1,11 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\NetFX20\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\NetFX20\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\NetFX20\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\ResultProvider.NetFX20.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\ResultProvider.NetFX20.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ResultProvider.NetFX20\Release\Microsoft.CodeAnalysis.ExpressionEvaluator.ResultProvider.pdb

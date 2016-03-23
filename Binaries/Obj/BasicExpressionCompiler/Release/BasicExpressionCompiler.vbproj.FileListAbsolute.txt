@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\BasicExpressionCompiler.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\Microsoft.CodeAnalysis.VisualBasic.ExpressionEvaluator.ExpressionCompiler.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompiler\Release\BasicExpressionCompiler.vbprojResolveAssemblyReference.cache

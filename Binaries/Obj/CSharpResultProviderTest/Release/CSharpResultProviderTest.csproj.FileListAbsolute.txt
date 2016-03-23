@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProviderTest\Release\CSharpResultProviderTest.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProviderTest\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProviderTest\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProviderTest\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpResultProviderTest\Release\Roslyn.ExpressionEvaluator.CSharp.ResultProvider.UnitTests.pdb

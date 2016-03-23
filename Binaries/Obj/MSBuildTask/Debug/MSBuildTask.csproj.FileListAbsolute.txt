@@ -1,0 +1,14 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.CSharp.Core.targets
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.VisualBasic.Core.targets
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.Build.Tasks.CodeAnalysis.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CodeAnalysisBuildTask\Microsoft.Build.Tasks.CodeAnalysis.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\MSBuildTask.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\Microsoft.CodeAnalysis.BuildTasks.ErrorString.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\MSBuildTask.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\Microsoft.Build.Tasks.CodeAnalysis.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\MSBuildTask\Debug\Microsoft.Build.Tasks.CodeAnalysis.pdb

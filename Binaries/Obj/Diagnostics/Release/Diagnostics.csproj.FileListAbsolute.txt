@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Hosting.Diagnostics.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Hosting.Diagnostics.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\PerfMargin\StatusIndicator.baml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\PerfMargin\StatusIndicator.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Roslyn.Hosting.Diagnostics_MarkupCompile.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Roslyn.Hosting.Diagnostics.g.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Roslyn.Hosting.Diagnostics.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Roslyn.Hosting.Diagnostics.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Roslyn.Hosting.Diagnostics.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Diagnostics\Release\Diagnostics.csprojResolveAssemblyReference.cache

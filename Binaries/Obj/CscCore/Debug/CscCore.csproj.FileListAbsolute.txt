@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc.cmd
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csccore\csc.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\CscCore.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\CscCore.csproj.csc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\csc.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\csc.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CscCore\Debug\csc.pdb

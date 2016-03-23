@@ -1,0 +1,17 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\BasicCodeAnalysis.vbprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\VBResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\BasicCodeAnalysis.vbproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\Syntax.xml.Generated.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\BoundNodes.xml.Generated.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\ErrorFacts.Generated.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\Microsoft.CodeAnalysis.VisualBasic.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCodeAnalysis\Release\Microsoft.CodeAnalysis.VisualBasic.pdb

@@ -1,0 +1,10 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\InteractiveHost.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\InteractiveHost.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\InteractiveHost.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveHost\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveHost\Debug\InteractiveHost.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveHost\Debug\InteractiveHost.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveHost\Debug\InteractiveHost.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveHost\Debug\InteractiveHost.csprojResolveAssemblyReference.cache

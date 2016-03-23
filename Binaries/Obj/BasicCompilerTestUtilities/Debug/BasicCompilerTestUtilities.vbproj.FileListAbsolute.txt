@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\GeneratedInternalsVisibleTo.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\Roslyn.Compilers.VisualBasic.Test.Utilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicCompilerTestUtilities\Debug\BasicCompilerTestUtilities.vbprojResolveAssemblyReference.cache

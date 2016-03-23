@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CoreClrTest\CommonNetCoreReferences_DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CoreClrTest\CommonNetCoreReferences_DoNotUse.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\CoreClrTest\CoreClrTestCommonNetCoreReferences_DoNotUse.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CommonNetCoreReferences\x64\Release\CommonNetCoreReferences.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CommonNetCoreReferences\x64\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CommonNetCoreReferences\x64\Release\CommonNetCoreReferences_DoNotUse.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CommonNetCoreReferences\x64\Release\CommonNetCoreReferences_DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CommonNetCoreReferences\x64\Release\CommonNetCoreReferences_DoNotUse.pdb

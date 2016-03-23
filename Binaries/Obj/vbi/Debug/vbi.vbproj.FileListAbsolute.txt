@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbi.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\vbi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\vbi.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\vbi.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\vbi.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\vbi.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\vbi\Debug\vbi.vbprojResolveAssemblyReference.cache

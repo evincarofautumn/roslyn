@@ -1,0 +1,16 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\CSharpCodeAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\Microsoft.CodeAnalysis.CSharp.CSharpResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\CSharpCodeAnalysis.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\Syntax.xml.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\BoundNodes.xml.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\ErrorFacts.Generated.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\Microsoft.CodeAnalysis.CSharp.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCodeAnalysis\Debug\Microsoft.CodeAnalysis.CSharp.pdb

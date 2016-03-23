@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\csc.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\CSharpCommandLineTest.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\Microsoft.CodeAnalysis.CSharp.CommandLine.UnitTests.CommandLineTestResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\CSharpCommandLineTest.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpCommandLineTest\Debug\Roslyn.Compilers.CSharp.CommandLine.UnitTests.pdb

@@ -1,0 +1,15 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc.cmd
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbccore\vbc.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\VbcCore.csproj.vbc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\vbc.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\vbc.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\vbc.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VbcCore\Release\VbcCore.csprojResolveAssemblyReference.cache

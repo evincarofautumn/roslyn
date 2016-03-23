@@ -1,0 +1,7 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.Debugger.Engine.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Concord.DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Concord.DoNotUse.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Concord\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Concord\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Concord.DoNotUse.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Concord\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Concord.DoNotUse.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Concord\Debug\Microsoft.CodeAnalysis.ExpressionEvaluator.Concord.DoNotUse.pdb

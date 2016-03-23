@@ -1,0 +1,11 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveServices.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveServices.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.InteractiveServices.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\VisualStudioInteractiveServices.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\Microsoft.VisualStudio.InteractiveServices.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\Microsoft.VisualStudio.InteractiveServices.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioInteractiveServices\Debug\Microsoft.VisualStudio.InteractiveServices.pdb

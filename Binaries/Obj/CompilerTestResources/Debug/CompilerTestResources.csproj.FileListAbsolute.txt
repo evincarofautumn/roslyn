@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.Test.Resources.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Compilers.Test.Resources.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilerTestResources\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilerTestResources\Debug\Roslyn.Compilers.Test.Resources.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilerTestResources\Debug\Roslyn.Compilers.Test.Resources.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilerTestResources\Debug\Roslyn.Compilers.Test.Resources.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CompilerTestResources\Debug\CompilerTestResources.csprojResolveAssemblyReference.cache

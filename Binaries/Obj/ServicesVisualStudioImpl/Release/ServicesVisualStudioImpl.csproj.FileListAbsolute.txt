@@ -1,0 +1,17 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.VisualStudio.LanguageServices.Implementation.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.VisualStudio.LanguageServices.Implementation.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.VisualStudio.LanguageServices.Implementation.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\ServicesVisualStudioImpl.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Options\OptionPreviewControl.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation_MarkupCompile.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation_MarkupCompile.lref
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Options\OptionPreviewControl.baml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation.g.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Release\Microsoft.VisualStudio.LanguageServices.Implementation.pdb

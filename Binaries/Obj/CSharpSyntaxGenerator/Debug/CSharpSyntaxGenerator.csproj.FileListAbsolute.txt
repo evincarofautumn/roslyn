@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpSyntaxGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpSyntaxGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\CompilerGeneratorTools\CSharpSyntaxGenerator.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpSyntaxGenerator\Debug\CSharpSyntaxGenerator.csproj.CSharpSyntaxGenerator.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpSyntaxGenerator\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpSyntaxGenerator\Debug\CSharpSyntaxGenerator.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpSyntaxGenerator\Debug\CSharpSyntaxGenerator.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\CSharpSyntaxGenerator\Debug\CSharpSyntaxGenerator.pdb

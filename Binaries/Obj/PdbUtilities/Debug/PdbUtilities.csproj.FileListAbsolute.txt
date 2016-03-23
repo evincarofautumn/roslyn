@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Test.PdbUtilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.Test.PdbUtilities.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\PdbUtilities.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\Roslyn.Test.PdbUtilities.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\Roslyn.Test.PdbUtilities.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\PdbUtilities\Debug\Roslyn.Test.PdbUtilities.pdb

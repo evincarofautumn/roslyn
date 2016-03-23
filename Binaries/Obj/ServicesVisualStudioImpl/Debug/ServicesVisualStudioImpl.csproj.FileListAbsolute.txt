@@ -1,0 +1,17 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\ServicesVisualStudioImpl.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Options\OptionPreviewControl.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation_MarkupCompile.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation_MarkupCompile.lref
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Options\OptionPreviewControl.baml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.g.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ServicesVisualStudioImpl\Debug\Microsoft.VisualStudio.LanguageServices.Implementation.pdb

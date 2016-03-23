@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompilerTest\Release\GeneratedAssemblyInfo_42.42.42.42.vb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompilerTest\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompilerTest\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompilerTest\Release\Roslyn.ExpressionEvaluator.VisualBasic.ExpressionCompiler.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\BasicExpressionCompilerTest\Release\BasicExpressionCompilerTest.vbprojResolveAssemblyReference.cache

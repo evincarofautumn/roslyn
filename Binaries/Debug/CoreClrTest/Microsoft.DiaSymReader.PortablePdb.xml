@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.DiaSymReader.PortablePdb</name>
+    </assembly>
+    <members>
+        <member name="M:Roslyn.Utilities.ReflectionUtilities.GetTypeFromEither(System.String,System.String)">
+            <summary>
+            Find a <see cref="T:System.Type"/> instance by first probing the contract name and then the name as it
+            would exist in mscorlib.  This helps satisfy both the CoreCLR and Desktop scenarios. 
+            </summary>
+        </member>
+        <member name="T:Roslyn.Utilities.PortableShim">
+             <summary>
+             The 4.5 portable API surface area does not contain many of the APIs Roslyn needs to function.  In 
+             particular it lacks APIs to access the file system.  The Roslyn project though is constrained 
+             from moving to the 4.6 framework until post VS 2015.
+             
+             This puts us in a difficult position.  These APIs are necessary for us to have our public API set
+             in the DLLS we prefer (non Desktop variants) but we can't use them directly when targeting 
+             the 4.5 framework.  Putting the APIs into the Desktop variants would create instant legacy for 
+             the Roslyn project that we'd have to maintain forever (even if it was just as assemblies with
+             only type forward entries).  This is not a place we'd like to be in.  
+             
+             As a compromise we've decided to grab these APIs via reflection for the time being.  This is a 
+             *very* unfortunate path to be on but it's a short term solution that sets us up for long term
+             success.  
+             
+             This is an unfortunate situation but it will all be removed fairly quickly after RTM and converted
+             to the proper 4.6 portable contracts.  
+            
+             Note: Only portable APIs should be present here.
+             </summary>
+        </member>
+        <member name="T:Roslyn.Utilities.PortableShim.Proposed">
+            <summary>
+            APIs contained here are proposed for CoreFX but not yet finalized.  Their contracts are
+            subject to change. 
+            </summary>
+        </member>
+        <member name="T:Roslyn.Reflection.Metadata.Decoding.ArrayShape">
+            <summary>
+            Represents the shape of an array type.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.ArrayShape.Rank">
+            <summary>
+            Gets the number of dimensions in the array.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.ArrayShape.Sizes">
+            <summary>
+            Gets the sizes of each dimension. Length may be smaller than rank, in which case the trailing dimensions have unspecified sizes.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.ArrayShape.LowerBounds">
+            <summary>
+            Gets the lower-bounds of each dimension. Length may be smaller than rank, in which case the trailing dimensions have unspecified lower bounds.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.IConstructedTypeProvider`1.GetGenericInstance(`0,System.Collections.Immutable.ImmutableArray{`0})">
+            <summary>
+            Gets the type symbol for a generic instantiation of the given generic type with the given type arguments.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.IConstructedTypeProvider`1.GetArrayType(`0,Roslyn.Reflection.Metadata.Decoding.ArrayShape)">
+            <summary>
+            Gets the type symbol for a generalized array of the given element type and shape. 
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.IConstructedTypeProvider`1.GetByReferenceType(`0)">
+            <summary>
+            Gets the type symbol for a managed pointer to the given element type.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.IConstructedTypeProvider`1.GetPointerType(`0)">
+            <summary>
+            Gets the type symbol for an unmanaged pointer to the given element ty
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.IPrimitiveTypeProvider`1.GetPrimitiveType(Roslyn.Reflection.Metadata.Decoding.PrimitiveTypeCode)">
+            <summary>
+            Gets the type symbol for a primitive type.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider`1.GetFunctionPointerType(Roslyn.Reflection.Metadata.Decoding.MethodSignature{`0})">
+            <summary>
+            Gets the a type symbol for the function pointer type of the given method signature.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider`1.GetGenericMethodParameter(System.Int32)">
+            <summary>
+            Gets the type symbol for the generic method parameter at the given zero-based index.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider`1.GetGenericTypeParameter(System.Int32)">
+            <summary>
+            Gets the type symbol for the generic type parameter at the given zero-based index.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider`1.GetModifiedType(System.Reflection.Metadata.MetadataReader,System.Boolean,`0,`0)">
+            <summary>
+            Gets the type symbol for a type with a custom modifier applied.
+            </summary>
+            <param name="reader">The metadata reader that was passed to the <see cref="T:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1"/>. It may be null.</param>
+            <param name="isRequired">True if the modifier is required, false if it's optional.</param>
+            <param name="modifier">The modifier type applied. </param>
+            <param name="unmodifiedType">The type symbol of the underlying type without modifiers applied.</param>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider`1.GetPinnedType(`0)">
+            <summary>
+            Gets the type symbol for a local variable type that is marked as pinned.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ISZArrayTypeProvider`1.GetSZArrayType(`0)">
+            <summary>
+            Gets the type symbol for a single-dimensional array with zero lower bounds of the given element type.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ITypeProvider`1.GetTypeFromDefinition(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.TypeDefinitionHandle,Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode)">
+            <summary>
+            Gets the type symbol for a type definition.
+            </summary>
+            <param name="reader">
+            The metadata reader that was passed to the<see cref= "T:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1" />. It may be null.
+            </param>
+            <param name="handle">
+            The type definition handle.
+            </param>
+            <param name="code">
+            When <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes"/> is used indicates whether
+            the type reference is to class or value type. Otherwise <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Unresolved"/>
+            will be passed.
+            </param>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ITypeProvider`1.GetTypeFromReference(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.TypeReferenceHandle,Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode)">
+            <summary>
+            Gets the type symbol for a type reference.
+            </summary>
+            <param name="reader">
+            The metadata reader that was passed to the <see cref= "T:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1" />. It may be null.
+            </param>
+            <param name="handle">
+            The type definition handle.
+            </param>
+            <param name="code">
+            When <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes"/> is used indicates whether
+            the type reference is to class or value type. Otherwise <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Unresolved"/>
+            will be passed.
+            </param>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.ITypeProvider`1.GetTypeFromSpecification(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.TypeSpecificationHandle,Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode)">
+            <summary>
+            Gets the type symbol for a type specification.
+            </summary>
+            <param name="reader">
+            The metadata reader that was passed to the <see cref= "T:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1" />. It may be null.
+            </param>
+            <param name="handle">
+            The type specification handle.
+            </param>
+            <param name="code">
+            When <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes"/> is used indicates whether
+            the type reference is to class or value type. Otherwise <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Unresolved"/>
+            will be passed.
+            </param>
+        </member>
+        <member name="T:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1">
+            <summary>
+            Represents a method (definition, reference, or standalone) or property signature.
+            In the case of properties, the signature matches that of a getter with a distinguishing <see cref="T:System.Reflection.Metadata.SignatureHeader"/>.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.Header">
+            <summary>
+            Represents the information in the leading byte of the signature (kind, calling convention, flags).
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.ReturnType">
+            <summary>
+            Gets the method's return type.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.RequiredParameterCount">
+            <summary>
+            Gets the number of parameters that are required. Will be equal to the length <see cref="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.ParameterTypes"/> of
+            unless this signature represents the standalone call site of a vararg method, in which case the entries
+            extra entries in <see cref="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.ParameterTypes"/> are the types used for the optional parameters.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.GenericParameterCount">
+            <summary>
+            Gets the number of generic type parameters of the method. Will be 0 for non-generic methods.
+            </summary>
+        </member>
+        <member name="P:Roslyn.Reflection.Metadata.Decoding.MethodSignature`1.ParameterTypes">
+            <summary>
+            Gets the method's parameter types.
+            </summary>
+        </member>
+        <member name="T:Roslyn.Reflection.Metadata.Decoding.PrimitiveTypeCode">
+            <summary>
+            Represents a primitive type found in metadata signatures.
+            </summary>
+        </member>
+        <member name="T:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1">
+            <summary>
+            Decodes signature blobs.
+            See Metadata Specification section II.23.2: Blobs and signatures.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.#ctor(Roslyn.Reflection.Metadata.Decoding.ISignatureTypeProvider{`0},System.Reflection.Metadata.MetadataReader,Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions)">
+            <summary>
+            Creates a new SignatureDecoder.
+            </summary>
+            <param name="provider">The provider used to obtain type symbols as the signature is decoded.</param>
+            <param name="metadataReader">
+            The metadata reader from which the signature was obtained. It may be null if the given provider allows it.
+            However, if <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes"/> is specified, it should
+            be non-null to evaluate WinRT projections from class to value type or vice-versa correctly.
+            </param>
+            <param name="options">Set of optional decoder features to enable.</param>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeType(System.Reflection.Metadata.BlobReader@,System.Boolean)">
+            <summary>
+            Decodes a type embedded in a signature and advances the reader past the type.
+            </summary>
+            <param name="blobReader">The blob reader positioned at the leading SignatureTypeCode</param>
+            <param name="allowTypeSpecifications">Allow a <see cref="T:System.Reflection.Metadata.TypeSpecificationHandle"/> to follow a (CLASS | VALUETYPE) in the signature.
+            At present, the only context where that would be valid is in a LocalConstantSig as defined by the Portable PDB specification.
+            </param>
+            <returns>The decoded type.</returns>
+            <exception cref="T:System.BadImageFormatException">The reader was not positioned at a valid signature type.</exception>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeTypeSequence(System.Reflection.Metadata.BlobReader@)">
+            <summary> 
+            Decodes a list of types, with at least one instance that is preceded by its count as a compressed integer.
+            </summary>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeMethodSignature(System.Reflection.Metadata.BlobReader@)">
+            <summary>
+            Decodes a method (definition, reference, or standalone) or property signature blob.
+            </summary>
+            <param name="blobReader">BlobReader positioned at a method signature.</param>
+            <returns>The decoded method signature.</returns>
+            <exception cref="T:System.BadImageFormatException">The method signature is invalid.</exception>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeMethodSpecificationSignature(System.Reflection.Metadata.BlobReader@)">
+            <summary>
+            Decodes a method specification signature blob and advances the reader past the signature.
+            </summary>
+            <param name="blobReader">A BlobReader positioned at a valid method specification signature.</param>
+            <returns>The types used to instantiate a generic method via the method specification.</returns>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeLocalSignature(System.Reflection.Metadata.BlobReader@)">
+            <summary>
+            Decodes a local variable signature blob and advances the reader past the signature.
+            </summary>
+            <param name="blobReader">The blob reader positioned at a local variable signature.</param>
+            <returns>The local variable types.</returns>
+            <exception cref="T:System.BadImageFormatException">The local variable signature is invalid.</exception>
+        </member>
+        <member name="M:Roslyn.Reflection.Metadata.Decoding.SignatureDecoder`1.DecodeFieldSignature(System.Reflection.Metadata.BlobReader@)">
+            <summary>
+            Decodes a field signature blob and advances the reader past the signature.
+            </summary>
+            <param name="blobReader">The blob reader positioned at a field signature.</param>
+            <returns>The decoded field type.</returns>
+        </member>
+        <member name="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.None">
+            <summary>
+            Disable all options (default when no options are passed).
+            </summary>
+        </member>
+        <member name="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes">
+            <summary>
+            Causes the decoder to pass <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Class"/> or <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.ValueType"/>
+            to the <see cref="T:Roslyn.Reflection.Metadata.Decoding.ITypeProvider`1"/> instead of <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Unresolved"/>.
+            </summary>
+            <remarks>
+            There is additional overhead for this case when dealing with .winmd files to handle projection.
+            Most scenarios will end up resolving valuetype vs. class from the actual definitions and do not
+            need to know which was used in the signature. As such, it is not enabled by default.
+            </remarks>
+        </member>
+        <member name="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Unresolved">
+            <summary>
+            It is not known in the current context if the type reference or definition is a class or value type.
+            This will be the case when <see cref="F:Roslyn.Reflection.Metadata.Decoding.SignatureDecoderOptions.DifferentiateClassAndValueTypes"/> is not specified.
+            </summary>
+        </member>
+        <member name="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.Class">
+            <summary>
+            The type definition or reference refers to a class.
+            </summary>
+        </member>
+        <member name="F:Roslyn.Reflection.Metadata.Decoding.SignatureTypeHandleCode.ValueType">
+            <summary>
+            The type definition or reference refers to a value type.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.FileNameUtilities.IndexOfFileName(System.String)">
+            <summary>
+            Returns the position in given path where the file name starts.
+            </summary>
+            <returns>-1 if path is null.</returns>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.FileNameUtilities.GetFileName(System.String)">
+            <summary>
+            Get file name from path.
+            </summary>
+            <remarks>Unlike <see cref="M:System.IO.Path.GetFileName(System.String)"/> doesn't check for invalid path characters.</remarks>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.EnumerableHelpers.GroupBy``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+            <summary>
+            Groups specified entries by key optimizing for single-item groups. 
+            The ordering of values within each bucket is the same as their ordering in the <paramref name="entries"/> sequence.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymBinder.GetReaderForFile2(System.Object,System.String,System.String,Microsoft.DiaSymReader.SymUnmanagedSearchPolicy,Microsoft.DiaSymReader.ISymUnmanagedReader@)">
+            <summary>
+            Given a metadata interface and a file name, returns the 
+            <see cref="T:Microsoft.DiaSymReader.ISymUnmanagedReader"/> interface that will read the debugging symbols associated
+            with the module.
+            </summary>
+            <remarks>
+            This version of the function can search for the PDB in areas other than
+            right next to the module.
+            The search policy can be controlled by combining CorSymSearchPolicyAttributes
+            e.g AllowReferencePathAccess|AllowSymbolServerAccess will look for the pdb next
+            to the PE file and on a symbol server, but won't query the registry or use the path
+            in the PE file.
+            If a searchPath is provided, those directories will always be searched.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymBinder.GetReaderFromPdbFile(Microsoft.DiaSymReader.IMetadataImportProvider,System.String,Microsoft.DiaSymReader.ISymUnmanagedReader@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.DiaSymReader.ISymUnmanagedReader"/> for the specified PDB file.
+            </summary>
+            <param name="metadataImportProvider">
+            Provider of a metadata importer for the corresponding PE file.
+            The importer is only constructed if the operation performed on the SymReader requires access
+            to the metadata.
+            </param>
+            <param name="pdbFilePath">PDB file path.</param>
+            <param name="reader">The new reader instance.</param>
+            <returns>
+            E_INVALIDARG
+              <paramref name="metadataImportProvider"/> is null, or
+              <paramref name="pdbFilePath"/> is null or empty.
+            Another error code describing failure to open the file.
+            </returns>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymBinder.GetReaderFromPdbStream(Microsoft.DiaSymReader.IMetadataImportProvider,System.Object,Microsoft.DiaSymReader.ISymUnmanagedReader@)">
+            <summary>
+            Creates a new <see cref="T:Microsoft.DiaSymReader.ISymUnmanagedReader"/> for the specified PDB file.
+            </summary>
+            <param name="metadataImportProvider">
+            Provider of a metadata importer for the corresponding PE file.
+            The importer is only constructed if the operation performed on the SymReader requires access
+            to the metadata.
+            </param>
+            <param name="stream">PDB stream.</param>
+            <param name="reader">The new reader instance.</param>
+            <returns>
+            E_INVALIDARG
+              <paramref name="metadataImportProvider"/> is null, or
+              <paramref name="stream"/> is null.
+            Another error code describing failure to open the file.
+            </returns>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymMethod.GetFileNameFromOffset(System.Int32,System.Int32,System.Int32@,System.Char[])">
+            <summary>
+            Get the file name for the line associated with specified offset.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymMethod.GetLineFromOffset(System.Int32,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Get the Line information associated with <paramref name="offset"/>.
+            </summary>
+            <remarks>
+            If <paramref name="offset"/> is not a sequence point it is associated with the previous one.
+            <paramref name="sequencePointOffset"/> provides the associated sequence point.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymMethod.GetDocumentsForMethodCount(System.Int32@)">
+            <summary>
+            Get the number of Documents that this method has lines in.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymMethod.GetDocumentsForMethod(System.Int32,System.Int32@,Microsoft.DiaSymReader.ISymUnmanagedDocument[])">
+            <summary>
+            Get the documents this method has lines in.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymMethod.GetSourceExtentInDocument(Microsoft.DiaSymReader.ISymUnmanagedDocument,System.Int32@,System.Int32@)">
+            <summary>
+            Get the smallest start line and largest end line, for the method, in a specific document.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymReader.MatchesModule(System.Guid,System.UInt32,System.Int32,System.Boolean@)">
+            <summary>
+            Checkes whether the id stored in the PDB matches the PDB ID stored in the PE/COFF Debug Directory.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymReader.GetPortableDebugMetadata(System.Byte*@,System.Int32@)">
+            <summary>
+            Returns a pointer to Portable Debug Metadata. Only available for Portable PDBs.
+            </summary>
+            <param name="metadata">
+            A pointer to memory where Portable Debug Metadata start. The memory is owned by the SymReader and 
+            valid until <see cref="M:Microsoft.DiaSymReader.ISymUnmanagedDispose.Destroy"/> is invoked. 
+            
+            Null if the PDB is not portable.
+            </param>
+            <param name="size">Size of the metadata block.</param>
+        </member>
+        <member name="M:Microsoft.DiaSymReader.PortablePdb.SymReader.GetSourceServerData(System.Byte*@,System.Int32@)">
+            <summary>
+            Returns a pointer to Source Server data stored in the PDB.
+            </summary>
+            <param name="data">
+            A pointer to memory where Source Server data start. The memory is owned by the SymReader and 
+            valid until <see cref="M:Microsoft.DiaSymReader.ISymUnmanagedDispose.Destroy"/> is invoked. 
+            
+            Null if the PDB doesn't contain Source Server data.
+            </param>
+            <param name="size">Size of the data in bytes.</param>
+        </member>
+    </members>
+</doc>

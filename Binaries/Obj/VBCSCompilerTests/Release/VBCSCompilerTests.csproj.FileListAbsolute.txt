@@ -1,0 +1,17 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\csc.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbc.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\vbc.rsp
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\xunit.execution.desktop.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CSharp.Core.targets
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.VisualBasic.Core.targets
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CompilerServer.UnitTests.dll.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CompilerServer.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Roslyn.Compilers.CompilerServer.UnitTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompilerTests\Release\VBCSCompilerTests.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompilerTests\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompilerTests\Release\Roslyn.Compilers.CompilerServer.UnitTests.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompilerTests\Release\Roslyn.Compilers.CompilerServer.UnitTests.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompilerTests\Release\Roslyn.Compilers.CompilerServer.UnitTests.pdb

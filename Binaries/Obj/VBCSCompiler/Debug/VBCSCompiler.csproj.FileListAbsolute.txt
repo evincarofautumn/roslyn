@@ -1,0 +1,12 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\VBCSCompiler.exe.config
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\VBCSCompiler.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\VBCSCompiler.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\VBCSCompiler.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\VBCSCompiler.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\VBCSCompiler.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\VBCSCompiler.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VBCSCompiler\Debug\VBCSCompiler.csprojResolveAssemblyReference.cache

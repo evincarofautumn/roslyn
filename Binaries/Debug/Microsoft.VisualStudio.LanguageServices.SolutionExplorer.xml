@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.LanguageServices.SolutionExplorer</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerItem.Remove">
+            <summary>
+            Remove this AnalyzerItem from it's folder.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerItemsTracker">
+            <summary>
+            This class listens to selection change events, and tracks which, if any, of our
+            <see cref="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerItem"/> or <see cref="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersFolderItem"/> is selected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersCommandHandler.Initialize(System.ComponentModel.Design.IMenuCommandService)">
+            <summary>
+            Hook up the context menu handlers.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersCommandHandler.AddAnalyzerHandler(System.Object,System.EventArgs)">
+            <summary>
+            Handler for "Add Analyzer..." context menu on Analyzers folder node.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersCommandHandler.RemoveAnalyzerHandler(System.Object,System.EventArgs)">
+            <summary>
+            Handler for "Remove" context menu on individual Analyzer items.
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersFolderItem.GetVSProject">
+            <summary>
+            Get the DTE object for the Project.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersFolderItem.AddAnalyzer(System.String)">
+            <summary>
+            Add an analyzer with the given path to this folder.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersFolderItem.RemoveAnalyzer(System.String)">
+            <summary>
+            Remove an analyzer with the given path from this folder.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzersFolderItemProvider.#ctor(Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.IHierarchyItemToProjectIdMap,Microsoft.CodeAnalysis.Workspace,Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.IAnalyzersCommandHandler)">
+            <summary>
+            Constructor for use only in unit tests. Bypasses MEF to set the project mapper, workspace and glyph service.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.BaseItem">
+            <summary>
+            Abstract base class for a custom node in Solution Explorer. This utilizes the core
+            SolutionExplorer extensibility similar to 
+            Microsoft.VisualStudio.Shell.TreeNavigation.HierarchyProvider.dll and
+            Microsoft.VisualStudio.Shell.TreeNavigation.GraphProvider.dll.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.BrowseObjectDisplayNameAttribute">
+            <summary>
+            The attribute used for adding localized display names to properties
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerReferenceManager">
+            <summary>
+            This class is responsible for showing an add analyzer dialog to the user and adding the analyzer
+            that is selected by the user in the dialog.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerReferenceManager.ShowDialog">
+            <summary>
+            Show the add analyzer dialog.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerReferenceManager.ChangeReferences(System.UInt32,Microsoft.VisualStudio.Shell.Interop.IVsReferenceProviderContext)">
+            <summary>
+            Called by the ReferenceManagerDialog to apply the user selection of references.
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.AnalyzerReferenceManager.GetProviderContexts">
+            <summary>
+            Called by the ReferenceManagerDialog to determine what contexts to show in the UI.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.ContextMenuController">
+            <summary>
+            Called by the Solution Explorer to show a context menu on the items we add to it
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.ISolutionExplorerWorkspaceProvider">
+            <summary>
+            this is a workaround to get different workspace per host without text buffer
+            
+            currently, any feature that doesn't work on top of a buffer imports specific type of workspace explicitly. there is
+            no broker in-between - unlike features that work on top of text buffers. so these components end up tightly coupled with specific
+            kind of host, and can't be re-used in other host even if code itself could be.
+            
+            this is a workaround interface for that limitation. 
+            
+            * this could be only issue in what I am trying to do since ETA, kind of, emulates VS and that is why this code can be shared at the first place.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.Implementation.SolutionExplorer.LocalizableProperties">
+            <summary>
+            This is a verbatim copy of Microsoft.VisualStudio.Shell.LocalizableProperties.
+            http://index/#Microsoft.VisualStudio.Shell.12.0/LocalizableProperties.cs.html
+            Unfortunately we can't reuse that class because the GetComponentName method on
+            it is not virtual, so we can't provide a name string for the VS Property Grid's
+            combo box (which shows ComponentName in bold and ClassName in regular to the
+            right from it)
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AddAnalyzer">
+            <summary>
+              Looks up a localized string similar to Add Analyzer.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzerFiles">
+            <summary>
+              Looks up a localized string similar to Analyzer Files.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzerItem_PropertyWindowClassName">
+            <summary>
+              Looks up a localized string similar to Analyzer Properties.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzerItemNameDisplayName">
+            <summary>
+              Looks up a localized string similar to (Name).
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzerItemPathDisplayName">
+            <summary>
+              Looks up a localized string similar to Path.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_CheckingOutRuleSet">
+            <summary>
+              Looks up a localized string similar to Checking out {0} for editing....
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_CouldNotCreateRuleSetFile">
+            <summary>
+              Looks up a localized string similar to Could not create a rule set for project {0}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_CouldNotFindProject">
+            <summary>
+              Looks up a localized string similar to Could not find project {0}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_NoRuleSetFile">
+            <summary>
+              Looks up a localized string similar to No rule set file is specified, or the file does not exist..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_RuleSet">
+            <summary>
+              Looks up a localized string similar to Rule Set.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_RuleSetFileCouldNotBeOpened">
+            <summary>
+              Looks up a localized string similar to The rule set file could not be opened..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersCommandHandler_RuleSetFileCouldNotBeUpdated">
+            <summary>
+              Looks up a localized string similar to The rule set file could not be updated..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersFolderItem_Name">
+            <summary>
+              Looks up a localized string similar to Analyzers.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.AnalyzersFolderItem_PropertyWindowClassName">
+            <summary>
+              Looks up a localized string similar to Folder Properties.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItem_PropertyWindowClassName">
+            <summary>
+              Looks up a localized string similar to Diagnostic Properties.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemCategoryDisplayName">
+            <summary>
+              Looks up a localized string similar to Category.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemDefaultSeverityDisplayName">
+            <summary>
+              Looks up a localized string similar to Default severity.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemDescriptionDisplayName">
+            <summary>
+              Looks up a localized string similar to Description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemEffectiveSeverityDisplayName">
+            <summary>
+              Looks up a localized string similar to Effective severity.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemEnabledByDefaultDisplayName">
+            <summary>
+              Looks up a localized string similar to Enabled by default.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemHelpLinkDisplayName">
+            <summary>
+              Looks up a localized string similar to Help link.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemIDDisplayName">
+            <summary>
+              Looks up a localized string similar to ID.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemMessageDisplayName">
+            <summary>
+              Looks up a localized string similar to Message.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemTagsDisplayName">
+            <summary>
+              Looks up a localized string similar to Tags.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.DiagnosticItemTitleDisplayName">
+            <summary>
+              Looks up a localized string similar to Title.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Default">
+            <summary>
+              Looks up a localized string similar to Default.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Error">
+            <summary>
+              Looks up a localized string similar to Error.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Hidden">
+            <summary>
+              Looks up a localized string similar to Hidden.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Info">
+            <summary>
+              Looks up a localized string similar to Info.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Suppressed">
+            <summary>
+              Looks up a localized string similar to Suppressed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.LanguageServices.SolutionExplorer.SolutionExplorerShim.Severity_Warning">
+            <summary>
+              Looks up a localized string similar to Warning.
+            </summary>
+        </member>
+    </members>
+</doc>

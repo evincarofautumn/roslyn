@@ -1,0 +1,13 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\InteractiveEditorFeatures.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\Microsoft.CodeAnalysis.Editor.InteractiveEditorFeaturesResources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\InteractiveEditorFeatures.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\InteractiveEditorFeatures\Release\Microsoft.CodeAnalysis.InteractiveEditorFeatures.pdb

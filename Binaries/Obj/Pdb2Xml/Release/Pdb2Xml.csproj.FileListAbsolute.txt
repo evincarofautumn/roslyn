@@ -1,0 +1,8 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Pdb2Xml.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Pdb2Xml.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\Pdb2Xml.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Pdb2Xml\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Pdb2Xml\Release\Pdb2Xml.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Pdb2Xml\Release\Pdb2Xml.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Pdb2Xml\Release\Pdb2Xml.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\Pdb2Xml\Release\Pdb2Xml.csprojResolveAssemblyReference.cache

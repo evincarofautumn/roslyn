@@ -1,0 +1,7 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\RunTests\Release\RunTests.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\RunTests\RunTests.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Release\RunTests\RunTests.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\RunTests\Release\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\RunTests\Release\RunTests.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\RunTests\Release\RunTests.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\RunTests\Release\RunTests.pdb

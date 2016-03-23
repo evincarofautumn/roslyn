@@ -1,0 +1,9 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ProcessWatchdog\ProcessWatchdog.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\ProcessWatchdog\ProcessWatchdog.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.Resources.resources
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.csproj.GenerateResource.Cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.exe.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.exe
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\ProcessWatchdog\Debug\ProcessWatchdog.pdb

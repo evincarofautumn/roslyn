@@ -1,0 +1,16 @@
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.VisualStudio.Setup.xml
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.VisualStudio.Setup.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.VisualStudio.Setup.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.VisualStudio.Setup.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Debug\Roslyn.VisualStudio.Setup.vsix
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\VisualStudioSetup.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\GeneratedInternalsVisibleTo.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\GeneratedAssemblyInfo_42.42.42.42.cs
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\Roslyn.VisualStudio.Setup.dll.pcbm
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\Roslyn.VisualStudio.Setup.dll
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\Roslyn.VisualStudio.Setup.pdb
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\Roslyn.VisualStudio.Setup.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\Roslyn.VisualStudio.Setup.latest.pkgdef
+C:\Users\Jonathan Purdy\Projects\roslyn\Binaries\Obj\VisualStudioSetup\Debug\extension.vsixmanifest
